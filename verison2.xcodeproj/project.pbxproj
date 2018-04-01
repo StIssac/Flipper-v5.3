@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1D45E3206FA83100D25A97 /* chooseCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D45E2206FA83100D25A97 /* chooseCategoryViewController.swift */; };
 		ACAA4441206F5A6B002C4359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4440206F5A6B002C4359 /* AppDelegate.swift */; };
 		ACAA4443206F5A6B002C4359 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4442206F5A6B002C4359 /* ViewController.swift */; };
 		ACAA4446206F5A6B002C4359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAA4444206F5A6B002C4359 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		ACAA444B206F5A6B002C4359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAA4449206F5A6B002C4359 /* LaunchScreen.storyboard */; };
 		ACAA4456206F5A6B002C4359 /* verison2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4455206F5A6B002C4359 /* verison2Tests.swift */; };
 		ACAA4461206F5A6B002C4359 /* verison2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4460206F5A6B002C4359 /* verison2UITests.swift */; };
+		ACABD878206F6B120037FEDD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABD877206F6B120037FEDD /* GameViewController.swift */; };
+		ACABD87A206F71680037FEDD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABD879206F71680037FEDD /* Card.swift */; };
+		ACABD87C206F71A60037FEDD /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABD87B206F71A60037FEDD /* CardModel.swift */; };
+		ACF45EC6206F7D5C0005820B /* VocCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF45EC5206F7D5C0005820B /* VocCardViewController.swift */; };
+		ACF45EC8206F806E0005820B /* vocCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF45EC7206F806E0005820B /* vocCardModel.swift */; };
+		ACF45ECA206F82240005820B /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF45EC9206F82240005820B /* addEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC1D45E2206FA83100D25A97 /* chooseCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseCategoryViewController.swift; sourceTree = "<group>"; };
+		AC3E4D5D206F62FB00A64FD4 /* 图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "图标.png"; path = "/Applications/verison2/verison2/图标.png"; sourceTree = "<absolute>"; };
 		ACAA443D206F5A6B002C4359 /* verison2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = verison2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAA4440206F5A6B002C4359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACAA4442206F5A6B002C4359 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,12 @@
 		ACAA445C206F5A6B002C4359 /* verison2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = verison2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAA4460206F5A6B002C4359 /* verison2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verison2UITests.swift; sourceTree = "<group>"; };
 		ACAA4462206F5A6B002C4359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACABD877206F6B120037FEDD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		ACABD879206F71680037FEDD /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		ACABD87B206F71A60037FEDD /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		ACF45EC5206F7D5C0005820B /* VocCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocCardViewController.swift; sourceTree = "<group>"; };
+		ACF45EC7206F806E0005820B /* vocCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocCardModel.swift; sourceTree = "<group>"; };
+		ACF45EC9206F82240005820B /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +112,9 @@
 		ACAA443F206F5A6B002C4359 /* verison2 */ = {
 			isa = PBXGroup;
 			children = (
+				AC3E4D5D206F62FB00A64FD4 /* 图标.png */,
+				ACF45ECC206F841D0005820B /* voccard */,
+				ACF45ECB206F84110005820B /* game */,
 				ACAA4440206F5A6B002C4359 /* AppDelegate.swift */,
 				ACAA4442206F5A6B002C4359 /* ViewController.swift */,
 				ACAA4444206F5A6B002C4359 /* Main.storyboard */,
@@ -123,6 +141,27 @@
 				ACAA4462206F5A6B002C4359 /* Info.plist */,
 			);
 			path = verison2UITests;
+			sourceTree = "<group>";
+		};
+		ACF45ECB206F84110005820B /* game */ = {
+			isa = PBXGroup;
+			children = (
+				ACABD879206F71680037FEDD /* Card.swift */,
+				ACABD87B206F71A60037FEDD /* CardModel.swift */,
+				ACABD877206F6B120037FEDD /* GameViewController.swift */,
+			);
+			path = game;
+			sourceTree = "<group>";
+		};
+		ACF45ECC206F841D0005820B /* voccard */ = {
+			isa = PBXGroup;
+			children = (
+				AC1D45E2206FA83100D25A97 /* chooseCategoryViewController.swift */,
+				ACF45EC9206F82240005820B /* addEvent.swift */,
+				ACF45EC5206F7D5C0005820B /* VocCardViewController.swift */,
+				ACF45EC7206F806E0005820B /* vocCardModel.swift */,
+			);
+			path = voccard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +299,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACAA4443206F5A6B002C4359 /* ViewController.swift in Sources */,
+				ACABD878206F6B120037FEDD /* GameViewController.swift in Sources */,
+				ACF45EC6206F7D5C0005820B /* VocCardViewController.swift in Sources */,
 				ACAA4441206F5A6B002C4359 /* AppDelegate.swift in Sources */,
+				ACF45ECA206F82240005820B /* addEvent.swift in Sources */,
+				ACF45EC8206F806E0005820B /* vocCardModel.swift in Sources */,
+				ACABD87A206F71680037FEDD /* Card.swift in Sources */,
+				AC1D45E3206FA83100D25A97 /* chooseCategoryViewController.swift in Sources */,
+				ACABD87C206F71A60037FEDD /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
