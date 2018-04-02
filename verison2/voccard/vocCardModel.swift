@@ -36,13 +36,20 @@ struct test4Model{
         return ""
     }
     
-    public mutating func postOnCalendar() -> Bool{
+    public mutating func postOnCalendar(learncategory : String) -> Bool{
         if pointer == wordList.count+1{
             
             var i = 1
-            for word in wordList{
-                wordListToString = wordListToString + "NO.\(i): Chinese: \(word.components(separatedBy: "+")[0])  English: \(word.components(separatedBy: "+")[1])\n"
+            for learnword in wordList{
+                wordListToString = wordListToString + "NO.\(i): Chinese: \(learnword.components(separatedBy: "+")[0])  English: \(learnword.components(separatedBy: "+")[1])\n"
                 i += 1
+//                var words: Word
+//                words.category = learncategory
+//                words.learned = true
+//                words.word = learnword
+//                words.learneddate = NSDate()
+                
+                
             }
             let formatter = DateFormatter()
             formatter.dateFormat = "yyyy-MM-dd HH:mm"

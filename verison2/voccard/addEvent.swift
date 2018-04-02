@@ -22,18 +22,15 @@ class addEvent{
             do {
                 if((error) != nil)
                 {
-                    //添加错误
                 }
                 else if(!granted)
                 {
-                    //无访问日历权限
                 }
                 else
                 {
                     let event = EKEvent(eventStore: eventStore)
                     event.title = self.title
                     event.location = self.note
-                    //起止时间
                     let formatter = DateFormatter()
                     formatter.dateFormat = "yyyy-MM-dd HH:mm"
                     let startTime = NSDate()
@@ -42,7 +39,6 @@ class addEvent{
                     event.isAllDay = true
                     event.startDate = startTime as Date!
                     event.endDate = endTime as Date!
-                    //在事件前多少秒开始事件提醒
                     //                    let alarm = EKAlarm()
                     //                    alarm.relativeOffset = -60.0
                     //                    event.addAlarm(alarm)

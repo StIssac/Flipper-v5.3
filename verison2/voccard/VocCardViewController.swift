@@ -81,7 +81,7 @@ class VocCardViewController: UIViewController {
     @IBAction func nextOne(_ sender: UIButton) {
         wordDisplay = game.ReturnWord(at: 1)
         if !hasPost{
-            if game.postOnCalendar(){
+            if game.postOnCalendar(learncategory : category){
                 hasPost = true
                 firstLabl.text = ""
                 SecondLabel.text = "Posted!"

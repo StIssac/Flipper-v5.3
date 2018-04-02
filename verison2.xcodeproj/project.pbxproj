@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AC1D45E3206FA83100D25A97 /* chooseCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D45E2206FA83100D25A97 /* chooseCategoryViewController.swift */; };
+		AC34A41D2070C84C00388155 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC34A41C2070C84C00388155 /* Images.xcassets */; };
+		AC34A41F2070D5DC00388155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC34A41E2070D5DC00388155 /* Assets.xcassets */; };
+		AC587DEA2071F71C00119377 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC587DE82071F71C00119377 /* Model.xcdatamodeld */; };
+		AC587E0020720BDD00119377 /* Word+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC587DFE20720BDD00119377 /* Word+CoreDataClass.swift */; };
+		AC587E0120720BDD00119377 /* Word+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC587DFF20720BDD00119377 /* Word+CoreDataProperties.swift */; };
 		ACAA4441206F5A6B002C4359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4440206F5A6B002C4359 /* AppDelegate.swift */; };
 		ACAA4443206F5A6B002C4359 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4442206F5A6B002C4359 /* ViewController.swift */; };
 		ACAA4446206F5A6B002C4359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAA4444206F5A6B002C4359 /* Main.storyboard */; };
-		ACAA4448206F5A6B002C4359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAA4447206F5A6B002C4359 /* Assets.xcassets */; };
 		ACAA444B206F5A6B002C4359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAA4449206F5A6B002C4359 /* LaunchScreen.storyboard */; };
 		ACAA4456206F5A6B002C4359 /* verison2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4455206F5A6B002C4359 /* verison2Tests.swift */; };
 		ACAA4461206F5A6B002C4359 /* verison2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4460206F5A6B002C4359 /* verison2UITests.swift */; };
@@ -42,12 +46,16 @@
 
 /* Begin PBXFileReference section */
 		AC1D45E2206FA83100D25A97 /* chooseCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseCategoryViewController.swift; sourceTree = "<group>"; };
+		AC34A41C2070C84C00388155 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC34A41E2070D5DC00388155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3E4D5D206F62FB00A64FD4 /* 图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "图标.png"; path = "/Applications/verison2/verison2/图标.png"; sourceTree = "<absolute>"; };
+		AC587DE92071F71C00119377 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		AC587DFE20720BDD00119377 /* Word+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AC587DFF20720BDD00119377 /* Word+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		ACAA443D206F5A6B002C4359 /* verison2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = verison2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAA4440206F5A6B002C4359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACAA4442206F5A6B002C4359 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACAA4445206F5A6B002C4359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ACAA4447206F5A6B002C4359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACAA444A206F5A6B002C4359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACAA444C206F5A6B002C4359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACAA4451206F5A6B002C4359 /* verison2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = verison2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,15 +120,19 @@
 		ACAA443F206F5A6B002C4359 /* verison2 */ = {
 			isa = PBXGroup;
 			children = (
+				AC587DFE20720BDD00119377 /* Word+CoreDataClass.swift */,
+				AC587DFF20720BDD00119377 /* Word+CoreDataProperties.swift */,
 				AC3E4D5D206F62FB00A64FD4 /* 图标.png */,
+				AC34A41E2070D5DC00388155 /* Assets.xcassets */,
 				ACF45ECC206F841D0005820B /* voccard */,
 				ACF45ECB206F84110005820B /* game */,
 				ACAA4440206F5A6B002C4359 /* AppDelegate.swift */,
 				ACAA4442206F5A6B002C4359 /* ViewController.swift */,
 				ACAA4444206F5A6B002C4359 /* Main.storyboard */,
-				ACAA4447206F5A6B002C4359 /* Assets.xcassets */,
 				ACAA4449206F5A6B002C4359 /* LaunchScreen.storyboard */,
 				ACAA444C206F5A6B002C4359 /* Info.plist */,
+				AC34A41C2070C84C00388155 /* Images.xcassets */,
+				AC587DE82071F71C00119377 /* Model.xcdatamodeld */,
 			);
 			path = verison2;
 			sourceTree = "<group>";
@@ -233,6 +245,11 @@
 					ACAA443C206F5A6B002C4359 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 					ACAA4450206F5A6B002C4359 = {
 						CreatedOnToolsVersion = 9.2;
@@ -272,7 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACAA444B206F5A6B002C4359 /* LaunchScreen.storyboard in Resources */,
-				ACAA4448206F5A6B002C4359 /* Assets.xcassets in Resources */,
+				AC34A41D2070C84C00388155 /* Images.xcassets in Resources */,
+				AC34A41F2070D5DC00388155 /* Assets.xcassets in Resources */,
 				ACAA4446206F5A6B002C4359 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,8 +323,11 @@
 				ACF45ECA206F82240005820B /* addEvent.swift in Sources */,
 				ACF45EC8206F806E0005820B /* vocCardModel.swift in Sources */,
 				ACABD87A206F71680037FEDD /* Card.swift in Sources */,
+				AC587DEA2071F71C00119377 /* Model.xcdatamodeld in Sources */,
+				AC587E0120720BDD00119377 /* Word+CoreDataProperties.swift in Sources */,
 				AC1D45E3206FA83100D25A97 /* chooseCategoryViewController.swift in Sources */,
 				ACABD87C206F71A60037FEDD /* CardModel.swift in Sources */,
+				AC587E0020720BDD00119377 /* Word+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,8 +492,9 @@
 		ACAA4466206F5A6B002C4359 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 558NXHNBD7;
 				INFOPLIST_FILE = verison2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yxk.verison2;
@@ -485,8 +507,9 @@
 		ACAA4467206F5A6B002C4359 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 558NXHNBD7;
 				INFOPLIST_FILE = verison2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yxk.verison2;
@@ -598,6 +621,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC587DE82071F71C00119377 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC587DE92071F71C00119377 /* Model.xcdatamodel */,
+			);
+			currentVersion = AC587DE92071F71C00119377 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ACAA4435206F5A6B002C4359 /* Project object */;
 }
