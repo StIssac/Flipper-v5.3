@@ -52,16 +52,16 @@
 		AC587DE92071F71C00119377 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		AC587DFE20720BDD00119377 /* Word+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataClass.swift"; sourceTree = "<group>"; };
 		AC587DFF20720BDD00119377 /* Word+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		ACAA443D206F5A6B002C4359 /* verison2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = verison2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAA443D206F5A6B002C4359 /* Flipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAA4440206F5A6B002C4359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACAA4442206F5A6B002C4359 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACAA4445206F5A6B002C4359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACAA444A206F5A6B002C4359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACAA444C206F5A6B002C4359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACAA4451206F5A6B002C4359 /* verison2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = verison2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAA4451206F5A6B002C4359 /* FlipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAA4455206F5A6B002C4359 /* verison2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verison2Tests.swift; sourceTree = "<group>"; };
 		ACAA4457206F5A6B002C4359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACAA445C206F5A6B002C4359 /* verison2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = verison2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAA445C206F5A6B002C4359 /* FlipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAA4460206F5A6B002C4359 /* verison2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verison2UITests.swift; sourceTree = "<group>"; };
 		ACAA4462206F5A6B002C4359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACABD877206F6B120037FEDD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -110,9 +110,9 @@
 		ACAA443E206F5A6B002C4359 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA443D206F5A6B002C4359 /* verison2.app */,
-				ACAA4451206F5A6B002C4359 /* verison2Tests.xctest */,
-				ACAA445C206F5A6B002C4359 /* verison2UITests.xctest */,
+				ACAA443D206F5A6B002C4359 /* Flipper.app */,
+				ACAA4451206F5A6B002C4359 /* FlipperTests.xctest */,
+				ACAA445C206F5A6B002C4359 /* FlipperUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,9 +179,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ACAA443C206F5A6B002C4359 /* verison2 */ = {
+		ACAA443C206F5A6B002C4359 /* Flipper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACAA4465206F5A6B002C4359 /* Build configuration list for PBXNativeTarget "verison2" */;
+			buildConfigurationList = ACAA4465206F5A6B002C4359 /* Build configuration list for PBXNativeTarget "Flipper" */;
 			buildPhases = (
 				ACAA4439206F5A6B002C4359 /* Sources */,
 				ACAA443A206F5A6B002C4359 /* Frameworks */,
@@ -191,14 +191,14 @@
 			);
 			dependencies = (
 			);
-			name = verison2;
+			name = Flipper;
 			productName = verison2;
-			productReference = ACAA443D206F5A6B002C4359 /* verison2.app */;
+			productReference = ACAA443D206F5A6B002C4359 /* Flipper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ACAA4450206F5A6B002C4359 /* verison2Tests */ = {
+		ACAA4450206F5A6B002C4359 /* FlipperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACAA4468206F5A6B002C4359 /* Build configuration list for PBXNativeTarget "verison2Tests" */;
+			buildConfigurationList = ACAA4468206F5A6B002C4359 /* Build configuration list for PBXNativeTarget "FlipperTests" */;
 			buildPhases = (
 				ACAA444D206F5A6B002C4359 /* Sources */,
 				ACAA444E206F5A6B002C4359 /* Frameworks */,
@@ -209,14 +209,14 @@
 			dependencies = (
 				ACAA4453206F5A6B002C4359 /* PBXTargetDependency */,
 			);
-			name = verison2Tests;
+			name = FlipperTests;
 			productName = verison2Tests;
-			productReference = ACAA4451206F5A6B002C4359 /* verison2Tests.xctest */;
+			productReference = ACAA4451206F5A6B002C4359 /* FlipperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ACAA445B206F5A6B002C4359 /* verison2UITests */ = {
+		ACAA445B206F5A6B002C4359 /* FlipperUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACAA446B206F5A6B002C4359 /* Build configuration list for PBXNativeTarget "verison2UITests" */;
+			buildConfigurationList = ACAA446B206F5A6B002C4359 /* Build configuration list for PBXNativeTarget "FlipperUITests" */;
 			buildPhases = (
 				ACAA4458206F5A6B002C4359 /* Sources */,
 				ACAA4459206F5A6B002C4359 /* Frameworks */,
@@ -227,9 +227,9 @@
 			dependencies = (
 				ACAA445E206F5A6B002C4359 /* PBXTargetDependency */,
 			);
-			name = verison2UITests;
+			name = FlipperUITests;
 			productName = verison2UITests;
-			productReference = ACAA445C206F5A6B002C4359 /* verison2UITests.xctest */;
+			productReference = ACAA445C206F5A6B002C4359 /* FlipperUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -240,11 +240,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = "尹笑康";
+				ORGANIZATIONNAME = "CSE 208-Group India";
 				TargetAttributes = {
 					ACAA443C206F5A6B002C4359 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.iCloud = {
 								enabled = 0;
@@ -263,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ACAA4438206F5A6B002C4359 /* Build configuration list for PBXProject "verison2" */;
+			buildConfigurationList = ACAA4438206F5A6B002C4359 /* Build configuration list for PBXProject "Flipper" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -276,9 +276,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACAA443C206F5A6B002C4359 /* verison2 */,
-				ACAA4450206F5A6B002C4359 /* verison2Tests */,
-				ACAA445B206F5A6B002C4359 /* verison2UITests */,
+				ACAA443C206F5A6B002C4359 /* Flipper */,
+				ACAA4450206F5A6B002C4359 /* FlipperTests */,
+				ACAA445B206F5A6B002C4359 /* FlipperUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -352,12 +352,12 @@
 /* Begin PBXTargetDependency section */
 		ACAA4453206F5A6B002C4359 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ACAA443C206F5A6B002C4359 /* verison2 */;
+			target = ACAA443C206F5A6B002C4359 /* Flipper */;
 			targetProxy = ACAA4452206F5A6B002C4359 /* PBXContainerItemProxy */;
 		};
 		ACAA445E206F5A6B002C4359 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ACAA443C206F5A6B002C4359 /* verison2 */;
+			target = ACAA443C206F5A6B002C4359 /* Flipper */;
 			targetProxy = ACAA445D206F5A6B002C4359 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -493,7 +493,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 558NXHNBD7;
 				INFOPLIST_FILE = verison2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -508,7 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 558NXHNBD7;
 				INFOPLIST_FILE = verison2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -531,7 +531,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/verison2.app/verison2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flipper.app/Flipper";
 			};
 			name = Debug;
 		};
@@ -547,7 +547,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/verison2.app/verison2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flipper.app/Flipper";
 			};
 			name = Release;
 		};
@@ -584,7 +584,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACAA4438206F5A6B002C4359 /* Build configuration list for PBXProject "verison2" */ = {
+		ACAA4438206F5A6B002C4359 /* Build configuration list for PBXProject "Flipper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACAA4463206F5A6B002C4359 /* Debug */,
@@ -593,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACAA4465206F5A6B002C4359 /* Build configuration list for PBXNativeTarget "verison2" */ = {
+		ACAA4465206F5A6B002C4359 /* Build configuration list for PBXNativeTarget "Flipper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACAA4466206F5A6B002C4359 /* Debug */,
@@ -602,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACAA4468206F5A6B002C4359 /* Build configuration list for PBXNativeTarget "verison2Tests" */ = {
+		ACAA4468206F5A6B002C4359 /* Build configuration list for PBXNativeTarget "FlipperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACAA4469206F5A6B002C4359 /* Debug */,
@@ -611,7 +611,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACAA446B206F5A6B002C4359 /* Build configuration list for PBXNativeTarget "verison2UITests" */ = {
+		ACAA446B206F5A6B002C4359 /* Build configuration list for PBXNativeTarget "FlipperUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACAA446C206F5A6B002C4359 /* Debug */,
