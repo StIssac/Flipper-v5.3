@@ -10,13 +10,6 @@ import UIKit
 
 class VocCardViewController: UIViewController {
     
-    
-
-    public func returnWordList (level: String,category : String) -> [String]{
-        let temp = readFile.returnCategory(level: level, catgory: category)
-        return temp
-    }
-    
     public var level = "level"
     private var WordList = ["word"]{
         didSet{
@@ -32,6 +25,11 @@ class VocCardViewController: UIViewController {
                 WordList = returnWordList(level: level, category: category)
             }
         }
+    }
+    
+    public func returnWordList (level: String,category : String) -> [String]{
+        let temp = readFile.returnCategory(level: level, catgory: category)
+        return temp
     }
     
     private var hasPost = false

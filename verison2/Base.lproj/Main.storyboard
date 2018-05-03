@@ -267,9 +267,9 @@
                                     <constraint firstAttribute="height" constant="30" id="1om-JU-yw7"/>
                                 </constraints>
                                 <segments>
-                                    <segment title="Easy"/>
-                                    <segment title="Medium"/>
-                                    <segment title="Hard"/>
+                                    <segment title="Primary"/>
+                                    <segment title="Intermediate"/>
+                                    <segment title="Advanced"/>
                                 </segments>
                                 <color key="tintColor" red="0.0064659002240000001" green="0.1335904896" blue="0.36694365740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -330,7 +330,7 @@
                                         <rect key="frame" x="0.0" y="92" width="374" height="72"/>
                                         <color key="backgroundColor" red="0.92941176469999998" green="0.94901960780000005" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                        <state key="normal" title="Vehicle">
+                                        <state key="normal" title="Popular phrases">
                                             <color key="titleColor" red="0.0078431372550000003" green="0.1333333333" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -346,7 +346,7 @@
                                         <rect key="frame" x="0.0" y="184" width="374" height="72"/>
                                         <color key="backgroundColor" red="0.92941176469999998" green="0.94901960780000005" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                        <state key="normal" title="Medicine">
+                                        <state key="normal" title="Travel">
                                             <color key="titleColor" red="0.0078431372550000003" green="0.1333333333" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -366,9 +366,9 @@
                                     <constraint firstAttribute="height" constant="30" id="nHd-xi-jB6"/>
                                 </constraints>
                                 <segments>
-                                    <segment title="Easy"/>
-                                    <segment title="Medium"/>
-                                    <segment title="Hard"/>
+                                    <segment title="Primary"/>
+                                    <segment title="Intermediate"/>
+                                    <segment title="Advanced"/>
                                 </segments>
                                 <color key="tintColor" red="0.0064659002240000001" green="0.1335904896" blue="0.36694365740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -923,7 +923,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Yb5-G0-u17">
-                                <rect key="frame" x="20" y="194" width="374" height="348"/>
+                                <rect key="frame" x="20" y="206" width="374" height="324"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wnu-FM-5dT">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="72"/>
@@ -974,10 +974,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doO-y5-Ecj">
-                                        <rect key="frame" x="0.0" y="276" width="374" height="72"/>
+                                        <rect key="frame" x="0.0" y="276" width="374" height="48"/>
                                         <color key="backgroundColor" red="0.92941176469999998" green="0.94901960780000005" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                        <state key="normal" title="Snacks">
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Chinese famous snacks">
                                             <color key="titleColor" red="0.0078431372550000003" green="0.1333333333" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -997,9 +997,9 @@
                                     <constraint firstAttribute="height" constant="30" id="z5r-NX-tOk"/>
                                 </constraints>
                                 <segments>
-                                    <segment title="Easy"/>
-                                    <segment title="Medium"/>
-                                    <segment title="Hard"/>
+                                    <segment title="Primary"/>
+                                    <segment title="Intermediate"/>
+                                    <segment title="Advanced"/>
                                 </segments>
                                 <color key="tintColor" red="0.0064659002240000001" green="0.1335904896" blue="0.36694365740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -1130,9 +1130,9 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="pfG-vb-QQY"/>
                                 </constraints>
                                 <segments>
-                                    <segment title="Easy"/>
-                                    <segment title="Medium"/>
-                                    <segment title="Hard"/>
+                                    <segment title="Primary"/>
+                                    <segment title="Intermediate"/>
+                                    <segment title="Advanced"/>
                                 </segments>
                                 <color key="tintColor" red="0.0064659002240000001" green="0.1335904896" blue="0.36694365740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -1247,9 +1247,9 @@
                                     <constraint firstAttribute="height" constant="30" id="qax-Ve-hCE"/>
                                 </constraints>
                                 <segments>
-                                    <segment title="Easy"/>
-                                    <segment title="Medium"/>
-                                    <segment title="Hard"/>
+                                    <segment title="Primary"/>
+                                    <segment title="Intermediate"/>
+                                    <segment title="Advanced"/>
                                 </segments>
                                 <color key="tintColor" red="0.0064659002240000001" green="0.1335904896" blue="0.36694365740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -1338,7 +1338,7 @@
         <segue reference="sJO-Jm-N9G"/>
         <segue reference="ZkM-pM-MK5"/>
         <segue reference="r5Y-HX-TYd"/>
-        <segue reference="LNz-mJ-KUa"/>
+        <segue reference="dR9-j6-7Hp"/>
         <segue reference="fJV-4l-pZz"/>
         <segue reference="Tnx-8q-pNz"/>
         <segue reference="LvF-ai-ERd"/>

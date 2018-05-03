@@ -8,10 +8,10 @@
 
 import Foundation
 
-class readFile {
-    private  static let fileName = "learnword"
-    private  static let DocunmentDirURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-    private  static let fileURL = DocunmentDirURL.appendingPathComponent(fileName).appendingPathExtension("txt")
+struct readFile {
+    private  static var learnedWordFileName =  homePageViewController.userName + "learnword"
+    private  static var DocunmentDirURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+    private  static var learnedWordFileURL = DocunmentDirURL.appendingPathComponent(learnedWordFileName).appendingPathExtension("txt")
     private static let originFileURL = URL(fileURLWithPath: Bundle.main.path(forResource: "word", ofType: "txt")!)
     private static var contentOfFile = ""
     private static var allWord = [""]
@@ -20,7 +20,7 @@ class readFile {
     
     public static func returnCategory(level : String ,catgory : String) -> [String]{
         do{
-            contentOfFile = try String(contentsOf: fileURL)
+            contentOfFile = try String(contentsOf: learnedWordFileURL)
         }catch let error as NSError{
             Swift.print(error)
         }
@@ -70,7 +70,7 @@ class readFile {
         }
         do{
             let writeToFile = allWord.joined(separator: "\n")
-            try writeToFile.write(to: fileURL, atomically: true, encoding: String.Encoding.utf8)
+            try writeToFile.write(to: learnedWordFileURL, atomically: true, encoding: String.Encoding.utf8)
         }catch let error as NSError{
             Swift.print(error)
         }
@@ -78,7 +78,7 @@ class readFile {
     
     public static func review() -> [String]{
         do{
-            contentOfFile = try String(contentsOf: fileURL)
+            contentOfFile = try String(contentsOf: learnedWordFileURL)
         }catch let error as NSError{
             Swift.print(error)
         }
@@ -90,23 +90,35 @@ class readFile {
         }catch let error as NSError{
             Swift.print(error)
         }
-        var tempWord = [""]
+        var allLearnedWord = [""]
         for line in allWord{
-            if  tempWord.count < 6{
+            if  allLearnedWord.count < 6{
                 
             }
             var lineItem = line.components(separatedBy: ",")
             if lineItem.count == 6{
                 if lineItem[2] == "1"{
-                    if tempWord == [""]{
-                        tempWord = [lineItem[0]]
+                    if allLearnedWord == [""]{
+                        allLearnedWord = [lineItem[0]]
                     }else{
-                        tempWord.append(lineItem[0])
+                        allLearnedWord.append(lineItem[0])
                     }
                 }
             }
         }
-        return tempWord
+        var retrunWord = [""]
+        while(retrunWord.count<10){
+            let randomIndex = Int(arc4random_uniform(UInt32(allLearnedWord.count-1)))
+            if !retrunWord.contains(allLearnedWord[randomIndex]){
+                if retrunWord == [""]{
+                    retrunWord = [allLearnedWord[randomIndex]]
+                }else{
+                    retrunWord.append(allLearnedWord[randomIndex])
+                }               
+            }
+        }
+        
+        return retrunWord
         
     }
     

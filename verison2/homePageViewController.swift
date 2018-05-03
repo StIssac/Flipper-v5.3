@@ -9,6 +9,7 @@
 import UIKit
 
 class homePageViewController: UIViewController {
+    private(set) static var userName = "admin"
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (sender as? UIButton)?.currentTitle == "Quiz"{
             if let gvc = segue.destination as? GameViewController{

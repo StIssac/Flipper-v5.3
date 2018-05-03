@@ -37,11 +37,8 @@ class addEvent{
                     let endTime = NSDate()
                     print("startTime:\(String(describing: startTime))")
                     event.isAllDay = true
-                    event.startDate = startTime as Date!
-                    event.endDate = endTime as Date!
-                    //                    let alarm = EKAlarm()
-                    //                    alarm.relativeOffset = -60.0
-                    //                    event.addAlarm(alarm)
+                    event.startDate = startTime as Date?
+                    event.endDate = endTime as Date?
                     event.calendar = eventStore.defaultCalendarForNewEvents
                     let result:()? = try eventStore.save(event, span: EKSpan.thisEvent)
                     print("result:\(String(describing: result))")

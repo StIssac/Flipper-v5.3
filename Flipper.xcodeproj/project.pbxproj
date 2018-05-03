@@ -18,8 +18,9 @@
 		AC1D45E3206FA83100D25A97 /* chooseCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D45E2206FA83100D25A97 /* chooseCategoryViewController.swift */; };
 		AC587DEA2071F71C00119377 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC587DE82071F71C00119377 /* Model.xcdatamodeld */; };
 		AC9A9D8A209A950D001CC6E6 /* readFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A9D89209A950D001CC6E6 /* readFile.swift */; };
-		AC9A9D8C209A9B16001CC6E6 /* word.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC9A9D8B209A9B16001CC6E6 /* word.txt */; };
 		AC9A9D8E209A9F97001CC6E6 /* homePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A9D8D209A9F97001CC6E6 /* homePageViewController.swift */; };
+		AC9A9D92209ADE36001CC6E6 /* logIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A9D91209ADE36001CC6E6 /* logIn.swift */; };
+		AC9A9D94209AE921001CC6E6 /* word.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC9A9D93209AE920001CC6E6 /* word.txt */; };
 		ACAA4446206F5A6B002C4359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAA4444206F5A6B002C4359 /* Main.storyboard */; };
 		ACAA4456206F5A6B002C4359 /* verison2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4455206F5A6B002C4359 /* verison2Tests.swift */; };
 		ACAA4461206F5A6B002C4359 /* verison2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4460206F5A6B002C4359 /* verison2UITests.swift */; };
@@ -57,8 +58,9 @@
 		AC1D45E2206FA83100D25A97 /* chooseCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseCategoryViewController.swift; sourceTree = "<group>"; };
 		AC587DE92071F71C00119377 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		AC9A9D89209A950D001CC6E6 /* readFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readFile.swift; sourceTree = "<group>"; };
-		AC9A9D8B209A9B16001CC6E6 /* word.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = word.txt; path = ../../../word.txt; sourceTree = "<group>"; };
 		AC9A9D8D209A9F97001CC6E6 /* homePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePageViewController.swift; sourceTree = "<group>"; };
+		AC9A9D91209ADE36001CC6E6 /* logIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logIn.swift; sourceTree = "<group>"; };
+		AC9A9D93209AE920001CC6E6 /* word.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = word.txt; path = ../../word.txt; sourceTree = "<group>"; };
 		ACAA443D206F5A6B002C4359 /* Flipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAA4445206F5A6B002C4359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACAA444C206F5A6B002C4359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				AC9A9D89209A950D001CC6E6 /* readFile.swift */,
-				AC9A9D8B209A9B16001CC6E6 /* word.txt */,
+				AC9A9D93209AE920001CC6E6 /* word.txt */,
 				ACF45ECC206F841D0005820B /* voccard */,
 				ACF45ECB206F84110005820B /* game */,
 				ABF4D779207A3FFB0099191B /* Images.xcassets */,
@@ -136,6 +138,7 @@
 				AB0D3C86207F87B200BC3FDE /* Launch.storyboard */,
 				AB312A4A208780A5004A21E2 /* effect.swift */,
 				AC9A9D8D209A9F97001CC6E6 /* homePageViewController.swift */,
+				AC9A9D91209ADE36001CC6E6 /* logIn.swift */,
 			);
 			path = verison2;
 			sourceTree = "<group>";
@@ -293,7 +296,7 @@
 			files = (
 				AB0D3C87207F87B200BC3FDE /* Launch.storyboard in Resources */,
 				ABF4D77A207A3FFB0099191B /* Images.xcassets in Resources */,
-				AC9A9D8C209A9B16001CC6E6 /* word.txt in Resources */,
+				AC9A9D94209AE921001CC6E6 /* word.txt in Resources */,
 				ACAA4446206F5A6B002C4359 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACABD878206F6B120037FEDD /* GameViewController.swift in Sources */,
+				AC9A9D92209ADE36001CC6E6 /* logIn.swift in Sources */,
 				AB312A4B208780A5004A21E2 /* effect.swift in Sources */,
 				ACF45ECA206F82240005820B /* addEvent.swift in Sources */,
 				ACF45EC8206F806E0005820B /* vocCardModel.swift in Sources */,
