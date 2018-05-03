@@ -9,15 +9,26 @@
 import UIKit
 
 class chooseCategoryViewController: UIViewController {
-
-    
-    
+    private var level = "Primary"
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let category = (sender as? UIButton)?.currentTitle{
             if let vcvc = segue.destination as? VocCardViewController{
+                vcvc.level = level
                 vcvc.category = category 
             }
         }
     }
  
+    // Choose level of vocabulary
+    @IBAction func Level_Daliy(_ sender: UISegmentedControl) {
+        if (sender.selectedSegmentIndex == 0) {
+            level = "Primary"
+        } else if((sender.selectedSegmentIndex == 1)){
+            level = "Intermediate"
+        } else if((sender.selectedSegmentIndex == 2)){
+            level = "Advanced"
+        }
+            
+    }
+    
 }

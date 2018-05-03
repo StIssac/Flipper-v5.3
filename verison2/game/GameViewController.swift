@@ -15,6 +15,7 @@ class GameViewController: UIViewController {
         if repeatCount <= 0  {
             return
         }
+        self.winLabel.alpha = 0.0
         let timer = DispatchSource.makeTimerSource(flags: [], queue: DispatchQueue.main)
         var count = repeatCount
         timer.schedule(wallDeadline: .now(), repeating: timeInterval)
@@ -25,6 +26,7 @@ class GameViewController: UIViewController {
             }
             if count == 0 && self.TimerLabel.text == ("Remaining time:\(count+1)s"){
                 timer.cancel()
+                self.winLabel.alpha = 1.0
                 self.winLabel.text = "YOU LOSE!"
                 self.TimerLabel.text=("Remaining time:0s")
             }
@@ -75,7 +77,9 @@ class GameViewController: UIViewController {
         TimerLabel.text=("Remaining time:60s")
         viewDidLoad()
         winLabel.text = ""
+        self.winLabel.alpha = 0.0
         for button in cardButtons{
+            button.alpha = 1.0
             button.backgroundColor = #colorLiteral(red: 0.9294117647, green: 0.9490196078, blue: 0.9568627451, alpha: 1)
             button.setTitle("", for: UIControlState.normal)
         }
@@ -84,7 +88,7 @@ class GameViewController: UIViewController {
         ScoreLabel.text = "Score:\(CardModel.Score)"
     }
     
-    public var inputWordList = ["dog+狗","cat+猫","fish+鱼","pig+猪","ox+牛","rat+鼠","one+一","two+二","three+三","four+四","five+五","six+六","seven+七","eight+八","nine+九"]
+    public var inputWordList = ["😀+😀","😃+😃","😄+😄","🐶+🐶","🐭+🐭","🐷+🐷","🍎+🍎","🍐+🍐","🏈+🏈","🏀+🏀","🛩+🛩","🛸+🛸","⌚️+⌚️","💽+💽","⌨️+⌨️"]
     
     private(set) var words = [Int:String]()
     
@@ -102,7 +106,10 @@ class GameViewController: UIViewController {
             }else{
                 button.setTitle("", for: UIControlState.normal)
                 button.backgroundColor = card.isMatch ?  #colorLiteral(red: 1, green: 0.5518556993, blue: 0, alpha: 0) : #colorLiteral(red: 0.9294117647, green: 0.9490196078, blue: 0.9568627451, alpha: 1)
+                
             }
+            if (CardModel.Score == 6){
+                button.alpha = 0.0             }
             
         }
     }
@@ -115,10 +122,14 @@ class GameViewController: UIViewController {
             ReTry.text = "Remaining Try:\(CardModel.RemainingTry)"
             ScoreLabel.text = "Score:\(CardModel.Score)"
             if CardModel.RemainingTry == 0{
-                winLabel.text = "YOU LOSE!"
+                winLabel.text = "YOU LOSE :("
+                winLabel.textColor = #colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1)
+                self.winLabel.alpha = 1.0
             }
             if CardModel.Score == 6{
-                winLabel.text = "YOU WIN!"
+                winLabel.text = "YOU WIN :)"
+                winLabel.textColor = #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)
+                self.winLabel.alpha = 1.0
             }
         }
         

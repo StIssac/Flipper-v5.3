@@ -8,10 +8,11 @@
 
 import Foundation
 
-struct test4Model{
+struct vocCardModel{
     private var pointer = -1
     private var category : String
     private var wordList : [String]
+    private var level : String
     
     
     private var wordListToString = "Word Today:\n"
@@ -38,24 +39,18 @@ struct test4Model{
     
     public mutating func postOnCalendar(learncategory : String) -> Bool{
         if pointer == wordList.count+1{
-            
+            readFile.markAsLearned()
             var i = 1
             for learnword in wordList{
                 wordListToString = wordListToString + "NO.\(i): Chinese: \(learnword.components(separatedBy: "+")[0])  English: \(learnword.components(separatedBy: "+")[1])\n"
                 i += 1
-//                var words: Word
-//                words.category = learncategory
-//                words.learned = true
-//                words.word = learnword
-//                words.learneddate = NSDate()
-                
                 
             }
             let formatter = DateFormatter()
             formatter.dateFormat = "yyyy-MM-dd HH:mm"
             let now = formatter.string(from: NSDate() as Date)
             wordListToString = wordListToString + "learned at: \(now)"
-            let notetitle = "Flipper-\(category)"
+            let notetitle = "Flipper-\(category)-\(level)"
             let event = addEvent(title: notetitle, note : wordListToString)
             //print(wordListToString)
             event.add()
@@ -64,9 +59,10 @@ struct test4Model{
         return false
     }
     
-    init(Category : String,wordlist : [String]){
+    init(Category : String,wordlist : [String], level : String){
         self.wordList = wordlist
         self.category = Category
+        self.level = level
     }
     
 }

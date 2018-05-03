@@ -7,22 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB00DFC620848DDE00450153 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB00DFC520848DDE00450153 /* GuideViewController.swift */; };
+		AB0D3C87207F87B200BC3FDE /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D3C86207F87B200BC3FDE /* Launch.storyboard */; };
+		AB0D3C88207F87B200BC3FDE /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D3C86207F87B200BC3FDE /* Launch.storyboard */; };
+		AB0D3C89207F87B200BC3FDE /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D3C86207F87B200BC3FDE /* Launch.storyboard */; };
+		AB312A4B208780A5004A21E2 /* effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB312A4A208780A5004A21E2 /* effect.swift */; };
+		AB6ECFBD2091B9B3000FF37C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ECFBC2091B9B3000FF37C /* AppDelegate.swift */; };
+		ABD8D5122099E6DE00080849 /* VocCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD8D5112099E6DE00080849 /* VocCardViewController.swift */; };
+		ABF4D77A207A3FFB0099191B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF4D779207A3FFB0099191B /* Images.xcassets */; };
 		AC1D45E3206FA83100D25A97 /* chooseCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D45E2206FA83100D25A97 /* chooseCategoryViewController.swift */; };
-		AC34A41D2070C84C00388155 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC34A41C2070C84C00388155 /* Images.xcassets */; };
-		AC34A41F2070D5DC00388155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC34A41E2070D5DC00388155 /* Assets.xcassets */; };
 		AC587DEA2071F71C00119377 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC587DE82071F71C00119377 /* Model.xcdatamodeld */; };
-		AC587E0020720BDD00119377 /* Word+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC587DFE20720BDD00119377 /* Word+CoreDataClass.swift */; };
-		AC587E0120720BDD00119377 /* Word+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC587DFF20720BDD00119377 /* Word+CoreDataProperties.swift */; };
-		ACAA4441206F5A6B002C4359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4440206F5A6B002C4359 /* AppDelegate.swift */; };
-		ACAA4443206F5A6B002C4359 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4442206F5A6B002C4359 /* ViewController.swift */; };
+		AC9A9D8A209A950D001CC6E6 /* readFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A9D89209A950D001CC6E6 /* readFile.swift */; };
+		AC9A9D8C209A9B16001CC6E6 /* word.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC9A9D8B209A9B16001CC6E6 /* word.txt */; };
+		AC9A9D8E209A9F97001CC6E6 /* homePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A9D8D209A9F97001CC6E6 /* homePageViewController.swift */; };
 		ACAA4446206F5A6B002C4359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAA4444206F5A6B002C4359 /* Main.storyboard */; };
-		ACAA444B206F5A6B002C4359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAA4449206F5A6B002C4359 /* LaunchScreen.storyboard */; };
 		ACAA4456206F5A6B002C4359 /* verison2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4455206F5A6B002C4359 /* verison2Tests.swift */; };
 		ACAA4461206F5A6B002C4359 /* verison2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4460206F5A6B002C4359 /* verison2UITests.swift */; };
 		ACABD878206F6B120037FEDD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABD877206F6B120037FEDD /* GameViewController.swift */; };
 		ACABD87A206F71680037FEDD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABD879206F71680037FEDD /* Card.swift */; };
 		ACABD87C206F71A60037FEDD /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABD87B206F71A60037FEDD /* CardModel.swift */; };
-		ACF45EC6206F7D5C0005820B /* VocCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF45EC5206F7D5C0005820B /* VocCardViewController.swift */; };
 		ACF45EC8206F806E0005820B /* vocCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF45EC7206F806E0005820B /* vocCardModel.swift */; };
 		ACF45ECA206F82240005820B /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF45EC9206F82240005820B /* addEvent.swift */; };
 /* End PBXBuildFile section */
@@ -45,18 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB00DFC520848DDE00450153 /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		AB0D3C86207F87B200BC3FDE /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		AB312A4A208780A5004A21E2 /* effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = effect.swift; sourceTree = "<group>"; };
+		AB6ECFBC2091B9B3000FF37C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABD8D5112099E6DE00080849 /* VocCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VocCardViewController.swift; sourceTree = "<group>"; };
+		ABF4D779207A3FFB0099191B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AC1D45E2206FA83100D25A97 /* chooseCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseCategoryViewController.swift; sourceTree = "<group>"; };
-		AC34A41C2070C84C00388155 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AC34A41E2070D5DC00388155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AC3E4D5D206F62FB00A64FD4 /* 图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "图标.png"; path = "/Applications/verison2/verison2/图标.png"; sourceTree = "<absolute>"; };
 		AC587DE92071F71C00119377 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		AC587DFE20720BDD00119377 /* Word+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataClass.swift"; sourceTree = "<group>"; };
-		AC587DFF20720BDD00119377 /* Word+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AC9A9D89209A950D001CC6E6 /* readFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readFile.swift; sourceTree = "<group>"; };
+		AC9A9D8B209A9B16001CC6E6 /* word.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = word.txt; path = ../../../word.txt; sourceTree = "<group>"; };
+		AC9A9D8D209A9F97001CC6E6 /* homePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePageViewController.swift; sourceTree = "<group>"; };
 		ACAA443D206F5A6B002C4359 /* Flipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACAA4440206F5A6B002C4359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACAA4442206F5A6B002C4359 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACAA4445206F5A6B002C4359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ACAA444A206F5A6B002C4359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACAA444C206F5A6B002C4359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACAA4451206F5A6B002C4359 /* FlipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAA4455206F5A6B002C4359 /* verison2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verison2Tests.swift; sourceTree = "<group>"; };
@@ -67,7 +71,6 @@
 		ACABD877206F6B120037FEDD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		ACABD879206F71680037FEDD /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		ACABD87B206F71A60037FEDD /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
-		ACF45EC5206F7D5C0005820B /* VocCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocCardViewController.swift; sourceTree = "<group>"; };
 		ACF45EC7206F806E0005820B /* vocCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocCardModel.swift; sourceTree = "<group>"; };
 		ACF45EC9206F82240005820B /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,19 +123,19 @@
 		ACAA443F206F5A6B002C4359 /* verison2 */ = {
 			isa = PBXGroup;
 			children = (
-				AC587DFE20720BDD00119377 /* Word+CoreDataClass.swift */,
-				AC587DFF20720BDD00119377 /* Word+CoreDataProperties.swift */,
-				AC3E4D5D206F62FB00A64FD4 /* 图标.png */,
-				AC34A41E2070D5DC00388155 /* Assets.xcassets */,
+				AC9A9D89209A950D001CC6E6 /* readFile.swift */,
+				AC9A9D8B209A9B16001CC6E6 /* word.txt */,
 				ACF45ECC206F841D0005820B /* voccard */,
 				ACF45ECB206F84110005820B /* game */,
-				ACAA4440206F5A6B002C4359 /* AppDelegate.swift */,
-				ACAA4442206F5A6B002C4359 /* ViewController.swift */,
+				ABF4D779207A3FFB0099191B /* Images.xcassets */,
+				AB6ECFBC2091B9B3000FF37C /* AppDelegate.swift */,
+				AB00DFC520848DDE00450153 /* GuideViewController.swift */,
 				ACAA4444206F5A6B002C4359 /* Main.storyboard */,
-				ACAA4449206F5A6B002C4359 /* LaunchScreen.storyboard */,
 				ACAA444C206F5A6B002C4359 /* Info.plist */,
-				AC34A41C2070C84C00388155 /* Images.xcassets */,
 				AC587DE82071F71C00119377 /* Model.xcdatamodeld */,
+				AB0D3C86207F87B200BC3FDE /* Launch.storyboard */,
+				AB312A4A208780A5004A21E2 /* effect.swift */,
+				AC9A9D8D209A9F97001CC6E6 /* homePageViewController.swift */,
 			);
 			path = verison2;
 			sourceTree = "<group>";
@@ -170,7 +173,7 @@
 			children = (
 				AC1D45E2206FA83100D25A97 /* chooseCategoryViewController.swift */,
 				ACF45EC9206F82240005820B /* addEvent.swift */,
-				ACF45EC5206F7D5C0005820B /* VocCardViewController.swift */,
+				ABD8D5112099E6DE00080849 /* VocCardViewController.swift */,
 				ACF45EC7206F806E0005820B /* vocCardModel.swift */,
 			);
 			path = voccard;
@@ -239,12 +242,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "CSE 208-Group India";
 				TargetAttributes = {
 					ACAA443C206F5A6B002C4359 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.iCloud = {
 								enabled = 0;
@@ -288,9 +291,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACAA444B206F5A6B002C4359 /* LaunchScreen.storyboard in Resources */,
-				AC34A41D2070C84C00388155 /* Images.xcassets in Resources */,
-				AC34A41F2070D5DC00388155 /* Assets.xcassets in Resources */,
+				AB0D3C87207F87B200BC3FDE /* Launch.storyboard in Resources */,
+				ABF4D77A207A3FFB0099191B /* Images.xcassets in Resources */,
+				AC9A9D8C209A9B16001CC6E6 /* word.txt in Resources */,
 				ACAA4446206F5A6B002C4359 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0D3C88207F87B200BC3FDE /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0D3C89207F87B200BC3FDE /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,18 +321,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACAA4443206F5A6B002C4359 /* ViewController.swift in Sources */,
 				ACABD878206F6B120037FEDD /* GameViewController.swift in Sources */,
-				ACF45EC6206F7D5C0005820B /* VocCardViewController.swift in Sources */,
-				ACAA4441206F5A6B002C4359 /* AppDelegate.swift in Sources */,
+				AB312A4B208780A5004A21E2 /* effect.swift in Sources */,
 				ACF45ECA206F82240005820B /* addEvent.swift in Sources */,
 				ACF45EC8206F806E0005820B /* vocCardModel.swift in Sources */,
 				ACABD87A206F71680037FEDD /* Card.swift in Sources */,
 				AC587DEA2071F71C00119377 /* Model.xcdatamodeld in Sources */,
-				AC587E0120720BDD00119377 /* Word+CoreDataProperties.swift in Sources */,
+				AC9A9D8E209A9F97001CC6E6 /* homePageViewController.swift in Sources */,
+				ABD8D5122099E6DE00080849 /* VocCardViewController.swift in Sources */,
+				AC9A9D8A209A950D001CC6E6 /* readFile.swift in Sources */,
+				AB6ECFBD2091B9B3000FF37C /* AppDelegate.swift in Sources */,
 				AC1D45E3206FA83100D25A97 /* chooseCategoryViewController.swift in Sources */,
 				ACABD87C206F71A60037FEDD /* CardModel.swift in Sources */,
-				AC587E0020720BDD00119377 /* Word+CoreDataClass.swift in Sources */,
+				AB00DFC620848DDE00450153 /* GuideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,14 +377,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		ACAA4449206F5A6B002C4359 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACAA444A206F5A6B002C4359 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -396,6 +394,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -403,6 +402,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -430,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -453,6 +453,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -460,6 +461,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -481,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -492,30 +494,38 @@
 		ACAA4466206F5A6B002C4359 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_STYLE = Manual;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 558NXHNBD7;
 				INFOPLIST_FILE = verison2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yxk.verison2;
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = yxk.Flipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		ACAA4467206F5A6B002C4359 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_STYLE = Manual;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 558NXHNBD7;
 				INFOPLIST_FILE = verison2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yxk.verison2;
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = yxk.Flipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

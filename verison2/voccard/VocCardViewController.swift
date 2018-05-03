@@ -11,33 +11,26 @@ import UIKit
 class VocCardViewController: UIViewController {
     
     
-    public var numberWordList = ["一+one","二+two","三+three","四+four","五+five","六+six","七+seven","八+eight","九+nine"]
-    private var foodWordList = ["鸡肉+chicken","鸡蛋+egg","牛肉+beef","猪肉+pork"]
-    private var animalWordList = ["dog+狗","cat+猫","fish+鱼","pig+猪","ox+牛","rat+鼠"]
-    private var plantWordList = ["树+tree","花+flower","草+grass"]
-    private var earthWordList = ["山+hill","河+river","天+sky"]
-    
-    public func returnWordList (category : String) -> [String]{
-        if(category == "Number"){
-            return numberWordList
-        } else if (category == "Food"){
-            return foodWordList
-        } else if(category == "Animal"){
-            return animalWordList
-        } else if(category == "Plant"){
-            return plantWordList
-        } else if(category == "Earth"){
-            return earthWordList
-        }
-        return [""]
+
+    public func returnWordList (level: String,category : String) -> [String]{
+        let temp = readFile.returnCategory(level: level, catgory: category)
+        return temp
     }
     
-    
-    
-    private var WordList = ["word"]
-     var category = "category"{
+    public var level = "level"
+    private var WordList = ["word"]{
         didSet{
-           WordList = returnWordList(category: category)
+            Swift.print(WordList)
+        }
+    }
+    public var category = "category"{
+        didSet{
+            if category == "Review"{
+                level = "All"
+                WordList = readFile.review()
+            }else{
+                WordList = returnWordList(level: level, category: category)
+            }
         }
     }
     
@@ -47,23 +40,26 @@ class VocCardViewController: UIViewController {
             if !hasPost{
                 if wordDisplay == "end"{
                     if hasPost{
-                        firstLabl.text = ""
+                        firstLabel.text = ""
                         SecondLabel.text = "Posted!"
+                        checkButton.alpha = 1.0
+                        quizButton.alpha = 1.0
                         SecondLabel.textColor = #colorLiteral(red: 0.007843137255, green: 0.1333333333, blue: 0.368627451, alpha: 1)
                         thirdLabel.text = ""
                     }else{
-                        firstLabl.text = ""
+                        firstLabel.text = ""
                         SecondLabel.text = "Post it?"
+                        quizButton.alpha = 1.0
                         SecondLabel.textColor = #colorLiteral(red: 0.007843137255, green: 0.1333333333, blue: 0.368627451, alpha: 1)
                         thirdLabel.text = ""
                     }
                 }else if wordDisplay == "Start!"{
-                    firstLabl.text = ""
+                    firstLabel.text = ""
                     SecondLabel.text = "Start!"
                     SecondLabel.textColor = #colorLiteral(red: 0.007843137255, green: 0.1333333333, blue: 0.368627451, alpha: 1)
                     thirdLabel.text = ""
                 }else if wordDisplay != ""{
-                    firstLabl.text = wordDisplay.components(separatedBy: "+")[0]
+                    firstLabel.text = wordDisplay.components(separatedBy: "+")[0]
                     SecondLabel.text = "---------"
                     SecondLabel.textColor = #colorLiteral(red: 0.862745098, green: 0.8705882353, blue: 0.8705882353, alpha: 1)
                     thirdLabel.text = wordDisplay.components(separatedBy: "+")[1]
@@ -73,30 +69,68 @@ class VocCardViewController: UIViewController {
             }
         }
     }
-    lazy var game = test4Model(Category: category, wordlist: WordList)
+    lazy var game = vocCardModel(Category: category, wordlist: WordList, level : level)
     
-    @IBOutlet weak var firstLabl: UILabel!
+    @IBOutlet weak var quizButton: UIButton!
+    @IBOutlet weak var checkButton: UIButton!
+    @IBOutlet weak var firstLabel: UILabel!
     @IBOutlet weak var SecondLabel: UILabel!
     @IBOutlet weak var thirdLabel: UILabel!
     @IBAction func nextOne(_ sender: UIButton) {
-        wordDisplay = game.ReturnWord(at: 1)
-        if !hasPost{
-            if game.postOnCalendar(learncategory : category){
-                hasPost = true
-                firstLabl.text = ""
-                SecondLabel.text = "Posted!"
-                thirdLabel.text = ""
+        if WordList.count > 5{
+            wordDisplay = game.ReturnWord(at: 1)
+            if !hasPost{
+                if game.postOnCalendar(learncategory : category){
+                    hasPost = true
+                    firstLabel.text = ""
+                    SecondLabel.text = "Posted!"
+                    thirdLabel.text = ""
+                    checkButton.alpha = 1.0
+                    quizButton.alpha = 1.0
+                }
+            }
+        }else if category != "Review"{
+            firstLabel.text = "Learn out!"
+            SecondLabel.text = ""
+            thirdLabel.text = "Well done!"
+        }else{
+            firstLabel.text = ""
+            SecondLabel.text = "Learn First!"
+            thirdLabel.text = ""
+        }
+
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (sender as? UIButton)?.currentTitle == "Quiz"{
+            if let gvc = segue.destination as? GameViewController{
+               gvc.inputWordList = WordList
             }
         }
     }
     
-    
-    @IBAction func lastOne(_ sender: UIButton) {
-        wordDisplay = game.ReturnWord(at: -1)
-
+    @IBAction func checkCalendar(_ sender: UIButton) {
+            let urlString = "calshow:"
+            if let url = URL(string: urlString) {
+                //  Deal with different version of iOS
+                if #available(iOS 10, *) {
+                    UIApplication.shared.open(url, options: [:],
+                                              completionHandler: {
+                                                (success) in
+                    })
+                } else {
+                    UIApplication.shared.openURL(url)
+                }
+            }
     }
+   
      
-
+    @IBAction func lastOne(_ sender: UIButton) {
+        if WordList.count > 5{
+            wordDisplay = game.ReturnWord(at: -1)
+        }
+    }
+    
 }
 
 
