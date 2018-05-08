@@ -42,12 +42,14 @@ class VocCardViewController: UIViewController {
                         SecondLabel.text = "Posted!"
                         checkButton.alpha = 1.0
                         quizButton.alpha = 1.0
+                        exitButton.alpha = 1.0
                         SecondLabel.textColor = #colorLiteral(red: 0.007843137255, green: 0.1333333333, blue: 0.368627451, alpha: 1)
                         thirdLabel.text = ""
                     }else{
                         firstLabel.text = ""
                         SecondLabel.text = "Post it?"
                         quizButton.alpha = 1.0
+                        exitButton.alpha = 1.0
                         SecondLabel.textColor = #colorLiteral(red: 0.007843137255, green: 0.1333333333, blue: 0.368627451, alpha: 1)
                         thirdLabel.text = ""
                     }
@@ -69,12 +71,30 @@ class VocCardViewController: UIViewController {
     }
     lazy var game = vocCardModel(Category: category, wordlist: WordList, level : level)
     
+    @IBOutlet weak var exitButton: UIButton!
+    @IBOutlet var swipeView: UIView!
     @IBOutlet weak var quizButton: UIButton!
     @IBOutlet weak var checkButton: UIButton!
     @IBOutlet weak var firstLabel: UILabel!
     @IBOutlet weak var SecondLabel: UILabel!
     @IBOutlet weak var thirdLabel: UILabel!
-    @IBAction func nextOne(_ sender: UIButton) {
+    
+    // Gesture recognization
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let swipeDownRecognizer = UISwipeGestureRecognizer(target: self, action:#selector(lastOne(_:)))
+        let swipeUpRecognizer = UISwipeGestureRecognizer(target: self, action:#selector(nextOne(_:)))
+        swipeDownRecognizer.direction = .down
+        swipeDownRecognizer.numberOfTouchesRequired = 1
+        swipeUpRecognizer.direction = .up
+        swipeUpRecognizer.numberOfTouchesRequired = 1
+        swipeView.isUserInteractionEnabled = true
+        swipeView.addGestureRecognizer(swipeDownRecognizer)
+        swipeView.addGestureRecognizer(swipeUpRecognizer)
+    }
+    
+    @objc func nextOne(_ recognizer:UISwipeGestureRecognizer) {
         if WordList.count > 5{
             wordDisplay = game.ReturnWord(at: 1)
             if !hasPost{
@@ -85,18 +105,25 @@ class VocCardViewController: UIViewController {
                     thirdLabel.text = ""
                     checkButton.alpha = 1.0
                     quizButton.alpha = 1.0
+                    exitButton.alpha = 1.0
                 }
             }
         }else if category != "Review"{
-            firstLabel.text = "Learn out!"
+            firstLabel.text = ""
             SecondLabel.text = ""
             thirdLabel.text = "Well done!"
         }else{
-            firstLabel.text = ""
-            SecondLabel.text = "Learn First!"
+            firstLabel.text = "No learned words"
+            SecondLabel.text = "Learn some first!"
             thirdLabel.text = ""
         }
 
+    }
+    
+    @objc func lastOne(_ recognizer:UISwipeGestureRecognizer) {
+        if WordList.count > 5{
+            wordDisplay = game.ReturnWord(at: -1)
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -122,12 +149,6 @@ class VocCardViewController: UIViewController {
             }
     }
    
-     
-    @IBAction func lastOne(_ sender: UIButton) {
-        if WordList.count > 5{
-            wordDisplay = game.ReturnWord(at: -1)
-        }
-    }
     
 }
 

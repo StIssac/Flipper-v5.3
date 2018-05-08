@@ -1,4 +1,4 @@
-//
+ //
 //  logIn.swift
 //  Flipper
 //
@@ -13,28 +13,34 @@ struct  logInToFlipper {
     private  static var userInformationFileURL = DocunmentDirURL.appendingPathComponent(userInformationFileName).appendingPathExtension("txt")
     
     public static func register( userName : String , password : String ) -> Bool{
-        var contentOfFile = ""
-        do{
-            contentOfFile = try String(contentsOf: userInformationFileURL)
-        }catch let error as NSError{
-            Swift.print(error)
-        }
-        
-        let users = contentOfFile.components(separatedBy: "\n")
-        for user in users{
-            if user.components(separatedBy: "+").count > 1{
-                if user.components(separatedBy: "+")[0].elementsEqual(userName){
-                    return false
+        if (userName.isEmpty || password.isEmpty){
+            return false
+        }else if (userName.lengthOfBytes(using: String.Encoding.utf8)>10 || password.lengthOfBytes(using: String.Encoding.utf8)<4){
+            return false
+        }else {
+            var contentOfFile = ""
+            do{
+                contentOfFile = try String(contentsOf: userInformationFileURL)
+            }catch let error as NSError{
+                Swift.print(error)
+            }
+            
+            let users = contentOfFile.components(separatedBy: "\n")
+            for user in users{
+                if user.components(separatedBy: "+").count > 1{
+                    if user.components(separatedBy: "+")[0].elementsEqual(userName){
+                        return false
+                    }
                 }
             }
+            contentOfFile.append(userName + "+" + password+"\n")
+            do{
+                try contentOfFile.write(to: userInformationFileURL, atomically: true, encoding: String.Encoding.utf8)
+            }catch let error as NSError{
+                Swift.print(error)
+            }
+            return true
         }
-        contentOfFile.append(userName + "+" + password+"\n")
-        do{
-            try contentOfFile.write(to: userInformationFileURL, atomically: true, encoding: String.Encoding.utf8)
-        }catch let error as NSError{
-            Swift.print(error)
-        }
-        return true
     }
     
     public static func logIn(userName : String , password : String ) -> Bool{

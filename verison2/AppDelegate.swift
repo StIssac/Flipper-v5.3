@@ -24,18 +24,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let appVersion = userDefaults.string(forKey: "AppVersion")
 
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let guideViewController = storyboard.instantiateViewController(withIdentifier: "Guide") as! GuideViewController
+        
 
         // If appVersion is nil, it's the first time launch the app；if appVersion is not eaqual to currentAppVersion, the app has been updated
         if appVersion == nil || appVersion != currentAppVersion {
             // Save the current version number
             userDefaults.setValue(currentAppVersion, forKey: "AppVersion")
-
+            let guideViewController = storyboard.instantiateViewController(withIdentifier: "Guide") as! GuideViewController
             self.window?.rootViewController = guideViewController
         } else {
-            let nav = storyboard.instantiateViewController(withIdentifier: "navigation")
+            let logIn = storyboard.instantiateViewController(withIdentifier: "logIn") as! LoginViewController
             // Display the launch page for 2 seconds.
-            DispatchQueue.main.asyncAfter(deadline: 2, execute: {self.window?.rootViewController = nav})
+            DispatchQueue.main.asyncAfter(deadline: 2, execute: {self.window?.rootViewController = logIn})
         }
         
         return true

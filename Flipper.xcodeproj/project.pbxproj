@@ -12,15 +12,15 @@
 		AB0D3C88207F87B200BC3FDE /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D3C86207F87B200BC3FDE /* Launch.storyboard */; };
 		AB0D3C89207F87B200BC3FDE /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D3C86207F87B200BC3FDE /* Launch.storyboard */; };
 		AB312A4B208780A5004A21E2 /* effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB312A4A208780A5004A21E2 /* effect.swift */; };
+		AB604E5C209FEE990041F103 /* readFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB604E5B209FEE990041F103 /* readFile.swift */; };
 		AB6ECFBD2091B9B3000FF37C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ECFBC2091B9B3000FF37C /* AppDelegate.swift */; };
 		ABD8D5122099E6DE00080849 /* VocCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD8D5112099E6DE00080849 /* VocCardViewController.swift */; };
 		ABF4D77A207A3FFB0099191B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF4D779207A3FFB0099191B /* Images.xcassets */; };
+		ABF8B5B9209F3E5C00697F0E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF8B5B8209F3E5C00697F0E /* LoginViewController.swift */; };
 		AC1D45E3206FA83100D25A97 /* chooseCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D45E2206FA83100D25A97 /* chooseCategoryViewController.swift */; };
 		AC587DEA2071F71C00119377 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC587DE82071F71C00119377 /* Model.xcdatamodeld */; };
-		AC9A9D8A209A950D001CC6E6 /* readFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A9D89209A950D001CC6E6 /* readFile.swift */; };
 		AC9A9D8E209A9F97001CC6E6 /* homePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A9D8D209A9F97001CC6E6 /* homePageViewController.swift */; };
 		AC9A9D92209ADE36001CC6E6 /* logIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A9D91209ADE36001CC6E6 /* logIn.swift */; };
-		AC9A9D94209AE921001CC6E6 /* word.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC9A9D93209AE920001CC6E6 /* word.txt */; };
 		ACAA4446206F5A6B002C4359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAA4444206F5A6B002C4359 /* Main.storyboard */; };
 		ACAA4456206F5A6B002C4359 /* verison2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4455206F5A6B002C4359 /* verison2Tests.swift */; };
 		ACAA4461206F5A6B002C4359 /* verison2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA4460206F5A6B002C4359 /* verison2UITests.swift */; };
@@ -29,6 +29,7 @@
 		ACABD87C206F71A60037FEDD /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABD87B206F71A60037FEDD /* CardModel.swift */; };
 		ACF45EC8206F806E0005820B /* vocCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF45EC7206F806E0005820B /* vocCardModel.swift */; };
 		ACF45ECA206F82240005820B /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF45EC9206F82240005820B /* addEvent.swift */; };
+		ACFF5A6520A139F2005A5A84 /* word.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACFF5A6420A139F2005A5A84 /* word.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,15 +53,15 @@
 		AB00DFC520848DDE00450153 /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
 		AB0D3C86207F87B200BC3FDE /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		AB312A4A208780A5004A21E2 /* effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = effect.swift; sourceTree = "<group>"; };
+		AB604E5B209FEE990041F103 /* readFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = readFile.swift; sourceTree = "<group>"; };
 		AB6ECFBC2091B9B3000FF37C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABD8D5112099E6DE00080849 /* VocCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VocCardViewController.swift; sourceTree = "<group>"; };
 		ABF4D779207A3FFB0099191B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABF8B5B8209F3E5C00697F0E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AC1D45E2206FA83100D25A97 /* chooseCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseCategoryViewController.swift; sourceTree = "<group>"; };
 		AC587DE92071F71C00119377 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		AC9A9D89209A950D001CC6E6 /* readFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readFile.swift; sourceTree = "<group>"; };
 		AC9A9D8D209A9F97001CC6E6 /* homePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePageViewController.swift; sourceTree = "<group>"; };
 		AC9A9D91209ADE36001CC6E6 /* logIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logIn.swift; sourceTree = "<group>"; };
-		AC9A9D93209AE920001CC6E6 /* word.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = word.txt; path = ../../word.txt; sourceTree = "<group>"; };
 		ACAA443D206F5A6B002C4359 /* Flipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAA4445206F5A6B002C4359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACAA444C206F5A6B002C4359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 		ACABD87B206F71A60037FEDD /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		ACF45EC7206F806E0005820B /* vocCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocCardModel.swift; sourceTree = "<group>"; };
 		ACF45EC9206F82240005820B /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
+		ACFF5A6420A139F2005A5A84 /* word.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = word.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,20 +127,15 @@
 		ACAA443F206F5A6B002C4359 /* verison2 */ = {
 			isa = PBXGroup;
 			children = (
-				AC9A9D89209A950D001CC6E6 /* readFile.swift */,
-				AC9A9D93209AE920001CC6E6 /* word.txt */,
+				ACFF5A6420A139F2005A5A84 /* word.txt */,
+				AB604E5B209FEE990041F103 /* readFile.swift */,
+				ACFF5A6620A140DC005A5A84 /* homepage */,
 				ACF45ECC206F841D0005820B /* voccard */,
 				ACF45ECB206F84110005820B /* game */,
 				ABF4D779207A3FFB0099191B /* Images.xcassets */,
 				AB6ECFBC2091B9B3000FF37C /* AppDelegate.swift */,
-				AB00DFC520848DDE00450153 /* GuideViewController.swift */,
-				ACAA4444206F5A6B002C4359 /* Main.storyboard */,
 				ACAA444C206F5A6B002C4359 /* Info.plist */,
 				AC587DE82071F71C00119377 /* Model.xcdatamodeld */,
-				AB0D3C86207F87B200BC3FDE /* Launch.storyboard */,
-				AB312A4A208780A5004A21E2 /* effect.swift */,
-				AC9A9D8D209A9F97001CC6E6 /* homePageViewController.swift */,
-				AC9A9D91209ADE36001CC6E6 /* logIn.swift */,
 			);
 			path = verison2;
 			sourceTree = "<group>";
@@ -180,6 +177,20 @@
 				ACF45EC7206F806E0005820B /* vocCardModel.swift */,
 			);
 			path = voccard;
+			sourceTree = "<group>";
+		};
+		ACFF5A6620A140DC005A5A84 /* homepage */ = {
+			isa = PBXGroup;
+			children = (
+				AB0D3C86207F87B200BC3FDE /* Launch.storyboard */,
+				ACAA4444206F5A6B002C4359 /* Main.storyboard */,
+				AB00DFC520848DDE00450153 /* GuideViewController.swift */,
+				AB312A4A208780A5004A21E2 /* effect.swift */,
+				ABF8B5B8209F3E5C00697F0E /* LoginViewController.swift */,
+				AC9A9D91209ADE36001CC6E6 /* logIn.swift */,
+				AC9A9D8D209A9F97001CC6E6 /* homePageViewController.swift */,
+			);
+			path = homepage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +307,7 @@
 			files = (
 				AB0D3C87207F87B200BC3FDE /* Launch.storyboard in Resources */,
 				ABF4D77A207A3FFB0099191B /* Images.xcassets in Resources */,
-				AC9A9D94209AE921001CC6E6 /* word.txt in Resources */,
+				ACFF5A6520A139F2005A5A84 /* word.txt in Resources */,
 				ACAA4446206F5A6B002C4359 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,13 +338,14 @@
 				ACABD878206F6B120037FEDD /* GameViewController.swift in Sources */,
 				AC9A9D92209ADE36001CC6E6 /* logIn.swift in Sources */,
 				AB312A4B208780A5004A21E2 /* effect.swift in Sources */,
+				ABF8B5B9209F3E5C00697F0E /* LoginViewController.swift in Sources */,
 				ACF45ECA206F82240005820B /* addEvent.swift in Sources */,
 				ACF45EC8206F806E0005820B /* vocCardModel.swift in Sources */,
 				ACABD87A206F71680037FEDD /* Card.swift in Sources */,
 				AC587DEA2071F71C00119377 /* Model.xcdatamodeld in Sources */,
 				AC9A9D8E209A9F97001CC6E6 /* homePageViewController.swift in Sources */,
+				AB604E5C209FEE990041F103 /* readFile.swift in Sources */,
 				ABD8D5122099E6DE00080849 /* VocCardViewController.swift in Sources */,
-				AC9A9D8A209A950D001CC6E6 /* readFile.swift in Sources */,
 				AB6ECFBD2091B9B3000FF37C /* AppDelegate.swift in Sources */,
 				AC1D45E3206FA83100D25A97 /* chooseCategoryViewController.swift in Sources */,
 				ACABD87C206F71A60037FEDD /* CardModel.swift in Sources */,

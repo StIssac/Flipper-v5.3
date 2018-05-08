@@ -39,6 +39,9 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        for b in cardButtons{
+            b.titleLabel?.adjustsFontSizeToFitWidth = true
+        }
         
         DispatchTimer(timeInterval: 1, repeatCount: 60) { (timer, count) in
             if self.winLabel.text == "" && count+1 == Int(self.TimerLabel.text!.components(separatedBy: ":")[1].components(separatedBy: "s")[0]){

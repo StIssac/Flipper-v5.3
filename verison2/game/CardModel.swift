@@ -49,11 +49,11 @@ struct  CardModel{
     }
     
     init(numberOfPairsOfCards: Int){
-        CardModel.RemainingTry = numberOfPairsOfCards*2
+        CardModel.RemainingTry = numberOfPairsOfCards*2+2
         CardModel.Score = 0
         
         var tempCards = [Card]()
-        CardModel.RemainingTry = numberOfPairsOfCards*2
+        CardModel.RemainingTry = numberOfPairsOfCards*2+2
         CardModel.Score = 0
         
         
