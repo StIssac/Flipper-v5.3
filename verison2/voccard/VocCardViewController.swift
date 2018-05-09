@@ -20,7 +20,7 @@ class VocCardViewController: UIViewController {
         didSet{
             if category == "Review"{
                 level = "All"
-                WordList = readFile.review()
+                WordList = viaDatabase.review(numberOfElement: 10)
             }else{
                 WordList = returnWordList(level: level, category: category)
             }
@@ -28,7 +28,7 @@ class VocCardViewController: UIViewController {
     }
     
     public func returnWordList (level: String,category : String) -> [String]{
-        let temp = readFile.returnCategory(level: level, catgory: category)
+        let temp = viaDatabase.returnCategory(level: level, catgory: category)
         return temp
     }
     
@@ -129,7 +129,7 @@ class VocCardViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (sender as? UIButton)?.currentTitle == "Quiz"{
             if let gvc = segue.destination as? GameViewController{
-               gvc.inputWordList = WordList
+               gvc.inputWordList = viaDatabase.review(numberOfElement: 6)
             }
         }
     }

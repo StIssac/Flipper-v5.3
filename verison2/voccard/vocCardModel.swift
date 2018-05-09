@@ -13,14 +13,12 @@ struct vocCardModel{
     private var category : String
     private var wordList : [String]
     private var level : String
-    
-    
-    private var wordListToString = "Word Today:\n"
+    private var startTime: Date
+    private var wordListToString = ""
     
     
     public mutating func  ReturnWord(at temp:Int) -> String{
         pointer = pointer + temp
-        //print ("pointer:\(pointer)  count:\(wordList.count)")
         if pointer < 0 {
             pointer = -1
             return "Start!"
@@ -39,20 +37,14 @@ struct vocCardModel{
     
     public mutating func postOnCalendar(learncategory : String) -> Bool{
         if pointer == wordList.count+1{
-            readFile.markAsLearned()
+            viaDatabase.markAsLearned()
             var i = 1
             for learnword in wordList{
-                wordListToString = wordListToString + "NO.\(i): Chinese: \(learnword.components(separatedBy: "+")[0])  English: \(learnword.components(separatedBy: "+")[1])\n"
+                wordListToString.append("NO.\(i): Chinese: \(learnword.components(separatedBy: "+")[0])  English: \(learnword.components(separatedBy: "+")[1])\n")
                 i += 1
-                
             }
-            let formatter = DateFormatter()
-            formatter.dateFormat = "yyyy-MM-dd HH:mm"
-            let now = formatter.string(from: NSDate() as Date)
-            wordListToString = wordListToString + "learned at: \(now)"
             let notetitle = "Flipper-\(category)-\(level)"
-            let event = addEvent(title: notetitle, note : wordListToString)
-            //print(wordListToString)
+            let event = addEvent(title: notetitle, note : wordListToString, learnStartTime:  startTime)
             event.add()
             return true
         }
@@ -63,6 +55,7 @@ struct vocCardModel{
         self.wordList = wordlist
         self.category = Category
         self.level = level
+        self.startTime = NSDate() as Date
     }
     
 }

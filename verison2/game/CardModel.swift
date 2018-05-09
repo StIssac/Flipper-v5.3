@@ -14,9 +14,6 @@ struct  CardModel{
     private(set) static var RemainingTry = 0
     private(set) static var Score = 0
     
-    
-    
-    
     private  var indexOfOneOnlyOneFaceUp: Int? {
         get{
             let faceUPCardIndices = cards.indices.filter { cards[$0].isFaceup }
@@ -48,7 +45,7 @@ struct  CardModel{
         }
     }
     
-    init(numberOfPairsOfCards: Int){
+    init(numberOfPairsOfCards: Int) {
         CardModel.RemainingTry = numberOfPairsOfCards*2+2
         CardModel.Score = 0
         
@@ -64,10 +61,8 @@ struct  CardModel{
             tempCards.append(card)
             tempCards.append(card2)
         }
-        
         for _ in 0...tempCards.count-1{
             let randomIndex = Int(arc4random_uniform(UInt32(tempCards.count-1)))
-            //print("\(index)++++\(randomIndex)")
             cards.append(tempCards[randomIndex])
             tempCards.remove(at: randomIndex)
         }

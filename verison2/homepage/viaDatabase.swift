@@ -8,10 +8,29 @@
 
 import Foundation
 
-struct readFile {
-    public  static var learnedWordFileName =  "learnword"
-    public  static var DocunmentDirURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-    public static var learnedWordFileURL = DocunmentDirURL.appendingPathComponent(learnedWordFileName).appendingPathExtension("txt")
+struct viaDatabase {
+    public static var userName = "admin"{
+        didSet{
+            learnedWordFileName =  userName + "learnword"
+            reviewWordFileName =  userName + "reviewWord"
+        }
+    }
+    private static var learnedWordFileName =  "learnword"{
+        didSet{
+            DocunmentDirURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+            learnedWordFileURL = DocunmentDirURL.appendingPathComponent(learnedWordFileName).appendingPathExtension("txt")
+        }
+    }
+    private  static var DocunmentDirURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+    private static var learnedWordFileURL = DocunmentDirURL.appendingPathComponent("learnword").appendingPathExtension("txt")
+    private static var reviewWordFileName =  "reviewWord"{
+        didSet{
+            try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+            reviewWordFileURL = reDocunmentDirURL.appendingPathComponent(reviewWordFileName).appendingPathExtension("txt")
+        }
+    }
+    private  static var reDocunmentDirURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+    private static var reviewWordFileURL = reDocunmentDirURL.appendingPathComponent("reviewWord").appendingPathExtension("txt")
     private static let originFileURL = URL(fileURLWithPath: Bundle.main.path(forResource: "word", ofType: "txt")!)
     private static var contentOfFile = ""
     private static var allWord = [""]
@@ -109,7 +128,8 @@ struct readFile {
         }
     }
     
-    public static func review() -> [String]{
+    public static func review( numberOfElement : Int) -> [String]{
+        var wordCount = 0
         do{
             contentOfFile = try String(contentsOf: learnedWordFileURL)
         }catch let error as NSError{
@@ -131,6 +151,7 @@ struct readFile {
             var lineItem = line.components(separatedBy: ",")
             if lineItem.count == 6{
                 if lineItem[2] == "1"{
+                    wordCount += 1
                     if allLearnedWord == [""]{
                         allLearnedWord = [lineItem[0]]
                     }else{
@@ -141,7 +162,11 @@ struct readFile {
                     let learnTime = lineItem[1]
                     let time = formatter.date(from: learnTime)!
                     let now = NSDate() as Date
-                    if(time.addingTimeInterval(5*3600*24) > now){
+                    if(time.addingTimeInterval(30*3600*24) < now){
+                        allLearnedWord.append(lineItem[0])
+                        allLearnedWord.append(lineItem[0])
+                        allLearnedWord.append(lineItem[0])
+                    }  else if(time.addingTimeInterval(7*3600*24) < now){
                         allLearnedWord.append(lineItem[0])
                         allLearnedWord.append(lineItem[0])
                         allLearnedWord.append(lineItem[0])
@@ -150,27 +175,97 @@ struct readFile {
                         allLearnedWord.append(lineItem[0])
                         allLearnedWord.append(lineItem[0])
                         allLearnedWord.append(lineItem[0])
+                    } else if(time.addingTimeInterval(2*3600*24) > now){
+                        allLearnedWord.append(lineItem[0])
+                        allLearnedWord.append(lineItem[0])
+                        allLearnedWord.append(lineItem[0])
                     }
                 }
             }
         }
-        var retrunWord = [""]
-        if allLearnedWord.count < 10 {
-            return allLearnedWord
+        
+        var contentOfReviewFile = ""
+        var readed = true
+        do{
+            contentOfReviewFile = try String(contentsOf: reviewWordFileURL)
+        }catch let error as NSError{
+            Swift.print(error)
+            readed = false
         }
-        while(retrunWord.count<10){
-            let randomIndex = Int(arc4random_uniform(UInt32(allLearnedWord.count-1)))
-            if !retrunWord.contains(allLearnedWord[randomIndex]){
-                if retrunWord == [""]{
-                    retrunWord = [allLearnedWord[randomIndex]]
-                }else{
-                    retrunWord.append(allLearnedWord[randomIndex])
-                }               
+
+        if readed {
+            let wordList = contentOfReviewFile.components(separatedBy: "\n")
+            for line in wordList {
+                let lineItem = line.components(separatedBy: "+++")
+                if lineItem.count == 2{
+                    if (lineItem[1] == "false"){
+                        allLearnedWord.append(lineItem[0])
+                        allLearnedWord.append(lineItem[0])
+                        allLearnedWord.append(lineItem[0])
+                    }else{
+                        var i = 3
+                        while (i > 0){
+                            i -= 1
+                            let index = allLearnedWord.index(of: lineItem[0])
+                            if index != nil {
+                                allLearnedWord.remove(at: index!)
+                            }
+                        }
+                    }
+                }
             }
         }
         
+        var retrunWord = [""]
+        if wordCount == 0 {
+            return [""]
+        }
+        if wordCount <= 6 {
+            while(retrunWord.count < 6){
+                let randomIndex = Int(arc4random_uniform(UInt32(allLearnedWord.count-1)))
+                if !retrunWord.contains(allLearnedWord[randomIndex]){
+                    if retrunWord == [""]{
+                        retrunWord = [allLearnedWord[randomIndex]]
+                    }else{
+                        retrunWord.append(allLearnedWord[randomIndex])
+                    }
+                }
+            }
+        }else{
+            while(retrunWord.count < numberOfElement){
+                let randomIndex = Int(arc4random_uniform(UInt32(allLearnedWord.count-1)))
+                if !retrunWord.contains(allLearnedWord[randomIndex]){
+                    if retrunWord == [""]{
+                        retrunWord = [allLearnedWord[randomIndex]]
+                    }else{
+                        retrunWord.append(allLearnedWord[randomIndex])
+                    }
+                }
+            }
+        }
         return retrunWord
-        
+    }
+    
+    
+    public static func reviewRecord (win : String , list : [String]){
+        var learnRecord = [""]
+        for word in list{
+            let line = word + "+++" + win
+            learnRecord.append(line)
+        }
+        var contentOfReviewFile = ""
+        do{
+            contentOfReviewFile = try String(contentsOf: reviewWordFileURL)
+        }catch let error as NSError{
+            Swift.print(error)
+        }
+        do{
+            let writeToFile = contentOfReviewFile + learnRecord.joined(separator: "\n")
+            Swift.print(writeToFile)
+            try writeToFile.write(to: reviewWordFileURL, atomically: true, encoding: String.Encoding.utf8)
+        }catch let error as NSError{
+            Swift.print(error)
+        }
     }
     
     

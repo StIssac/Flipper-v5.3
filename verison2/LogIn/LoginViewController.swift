@@ -78,10 +78,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     @IBAction func loginButton(_ sender: UIButton) {
         let loginFlag = logInToFlipper.logIn(userName: accountText.text!, password: passwordText.text!)
         if loginFlag == true{
-            readFile.learnedWordFileName = accountText.text! + "learnedWord"
-            readFile.DocunmentDirURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-            readFile.learnedWordFileURL = readFile.DocunmentDirURL.appendingPathComponent(readFile.learnedWordFileName).appendingPathExtension("txt")
-            readFile.update()
+            viaDatabase.userName = accountText.text!
+            viaDatabase.update()
             let nav = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "homeNav") as! UINavigationController
             self.present(nav, animated: true, completion: nil)
         }else{

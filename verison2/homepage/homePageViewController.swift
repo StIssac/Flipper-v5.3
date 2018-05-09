@@ -12,9 +12,9 @@ class homePageViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (sender as? UIButton)?.currentTitle == "Quiz"{
             if let gvc = segue.destination as? GameViewController{
-                let temp = readFile.review()
+                let temp = viaDatabase.review(numberOfElement: 6)
                 if temp.count > 5 {
-                    gvc.inputWordList = readFile.review()
+                    gvc.inputWordList = temp
                 }
             }
         }

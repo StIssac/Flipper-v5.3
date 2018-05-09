@@ -28,6 +28,7 @@ class GameViewController: UIViewController {
                 timer.cancel()
                 self.winLabel.alpha = 1.0
                 self.winLabel.text = "YOU LOSE!"
+                viaDatabase.reviewRecord(win: "false", list: self.inputWordList)
                 self.TimerLabel.text=("Remaining time:0s")
             }
         })
@@ -77,6 +78,10 @@ class GameViewController: UIViewController {
     }
     
     private func Restart(){
+        var temp = viaDatabase.review(numberOfElement: 6)
+        if temp.count > 6{
+            inputWordList = temp
+        }
         TimerLabel.text=("Remaining time:60s")
         viewDidLoad()
         winLabel.text = ""
@@ -126,11 +131,13 @@ class GameViewController: UIViewController {
             ScoreLabel.text = "Score:\(CardModel.Score)"
             if CardModel.RemainingTry == 0{
                 winLabel.text = "YOU LOSE :("
+                viaDatabase.reviewRecord(win: "false", list: inputWordList)
                 winLabel.textColor = #colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1)
                 self.winLabel.alpha = 1.0
             }
             if CardModel.Score == 6{
                 winLabel.text = "YOU WIN :)"
+                viaDatabase.reviewRecord(win: "true", list: inputWordList)
                 winLabel.textColor = #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)
                 self.winLabel.alpha = 1.0
             }

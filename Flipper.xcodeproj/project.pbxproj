@@ -12,7 +12,7 @@
 		AB0D3C88207F87B200BC3FDE /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D3C86207F87B200BC3FDE /* Launch.storyboard */; };
 		AB0D3C89207F87B200BC3FDE /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D3C86207F87B200BC3FDE /* Launch.storyboard */; };
 		AB312A4B208780A5004A21E2 /* effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB312A4A208780A5004A21E2 /* effect.swift */; };
-		AB604E5C209FEE990041F103 /* readFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB604E5B209FEE990041F103 /* readFile.swift */; };
+		AB604E5C209FEE990041F103 /* viaDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB604E5B209FEE990041F103 /* viaDatabase.swift */; };
 		AB6ECFBD2091B9B3000FF37C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ECFBC2091B9B3000FF37C /* AppDelegate.swift */; };
 		ABD8D5122099E6DE00080849 /* VocCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD8D5112099E6DE00080849 /* VocCardViewController.swift */; };
 		ABF4D77A207A3FFB0099191B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF4D779207A3FFB0099191B /* Images.xcassets */; };
@@ -53,7 +53,7 @@
 		AB00DFC520848DDE00450153 /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
 		AB0D3C86207F87B200BC3FDE /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		AB312A4A208780A5004A21E2 /* effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = effect.swift; sourceTree = "<group>"; };
-		AB604E5B209FEE990041F103 /* readFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = readFile.swift; sourceTree = "<group>"; };
+		AB604E5B209FEE990041F103 /* viaDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viaDatabase.swift; sourceTree = "<group>"; };
 		AB6ECFBC2091B9B3000FF37C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABD8D5112099E6DE00080849 /* VocCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VocCardViewController.swift; sourceTree = "<group>"; };
 		ABF4D779207A3FFB0099191B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -104,6 +104,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC2517DE20A18CD90096FB88 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AB0D3C86207F87B200BC3FDE /* Launch.storyboard */,
+				ACAA4444206F5A6B002C4359 /* Main.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		AC2517DF20A18D430096FB88 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				ABF8B5B8209F3E5C00697F0E /* LoginViewController.swift */,
+				AC9A9D91209ADE36001CC6E6 /* logIn.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
 		ACAA4434206F5A6B002C4359 = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				ACFF5A6420A139F2005A5A84 /* word.txt */,
-				AB604E5B209FEE990041F103 /* readFile.swift */,
+				AC2517DE20A18CD90096FB88 /* storyboard */,
+				AC2517DF20A18D430096FB88 /* LogIn */,
 				ACFF5A6620A140DC005A5A84 /* homepage */,
 				ACF45ECC206F841D0005820B /* voccard */,
 				ACF45ECB206F84110005820B /* game */,
@@ -182,12 +201,9 @@
 		ACFF5A6620A140DC005A5A84 /* homepage */ = {
 			isa = PBXGroup;
 			children = (
-				AB0D3C86207F87B200BC3FDE /* Launch.storyboard */,
-				ACAA4444206F5A6B002C4359 /* Main.storyboard */,
+				AB604E5B209FEE990041F103 /* viaDatabase.swift */,
 				AB00DFC520848DDE00450153 /* GuideViewController.swift */,
 				AB312A4A208780A5004A21E2 /* effect.swift */,
-				ABF8B5B8209F3E5C00697F0E /* LoginViewController.swift */,
-				AC9A9D91209ADE36001CC6E6 /* logIn.swift */,
 				AC9A9D8D209A9F97001CC6E6 /* homePageViewController.swift */,
 			);
 			path = homepage;
@@ -344,7 +360,7 @@
 				ACABD87A206F71680037FEDD /* Card.swift in Sources */,
 				AC587DEA2071F71C00119377 /* Model.xcdatamodeld in Sources */,
 				AC9A9D8E209A9F97001CC6E6 /* homePageViewController.swift in Sources */,
-				AB604E5C209FEE990041F103 /* readFile.swift in Sources */,
+				AB604E5C209FEE990041F103 /* viaDatabase.swift in Sources */,
 				ABD8D5122099E6DE00080849 /* VocCardViewController.swift in Sources */,
 				AB6ECFBD2091B9B3000FF37C /* AppDelegate.swift in Sources */,
 				AC1D45E3206FA83100D25A97 /* chooseCategoryViewController.swift in Sources */,
