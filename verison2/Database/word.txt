@@ -1,4 +1,255 @@
-﻿苹果+apple,,0,Primary,Fruits,311001
+﻿傻白甜+blonde,,0,Primary,Popular phrases,111001
+套路+trap,,0,Primary,Popular phrases,111002
+山寨+copycat,,0,Primary,Popular phrases,111003
+御宅+otaku,,0,Primary,Popular phrases,111004
+自拍+selfie,,0,Primary,Popular phrases,111005
+狂热的+gaga,,0,Primary,Popular phrases,111006
+正妹+hotty,,0,Primary,Popular phrases,111007
+水疗+spa,,0,Primary,Popular phrases,111008
+表情符号+emoji,,0,Primary,Popular phrases,111009
+对喷+brawl,,0,Primary,Popular phrases,111010
+出柜+comeout,,0,Primary,Popular phrases,111011
+快照+snapshot,,0,Primary,Popular phrases,111012
+发烧友+fancier,,0,Primary,Popular phrases,111013
+男闺蜜+bromeo,,0,Primary,Popular phrases,111014
+低头族+Phubber,,0,Primary,Popular phrases,111015
+绝交+unfriend,,0,Primary,Popular phrases,111016
+潮人+trendsetter,,0,Intermediate,Popular phrases,112001
+乐活族+LOHAS,,0,Intermediate,Popular phrases,112002
+闪电约会+speeddating,,0,Intermediate,Popular phrases,112003
+脑残+leetspeak,,0,Intermediate,Popular phrases,112004
+脑残粉+fanboy,,0,Intermediate,Popular phrases,112005
+拼孩+mompetition,,0,Intermediate,Popular phrases,112006
+公投+popularvote,,0,Intermediate,Popular phrases,112007
+假结婚+shammarriage,,0,Intermediate,Popular phrases,112008
+安倍经济学+abenomic,,0,Intermediate,Popular phrases,112009
+同性恋+homosexual,,0,Intermediate,Popular phrases,112010
+比基尼+bikini,,0,Intermediate,Popular phrases,112011
+双性恋+bisexual,,0,Intermediate,Popular phrases,112012
+菜鸟+rookie,,0,Intermediate,Popular phrases,112013
+熟女+cougar,,0,Intermediate,Popular phrases,112014
+变性人+transsexual,,0,Intermediate,Popular phrases,112015
+社会主义+socialism,,0,Intermediate,Popular phrases,112016
+纳米技术+nanotechnology,,0,Advanced,Popular phrases,113001
+月光族+moonlite,,0,Advanced,Popular phrases,113002
+海外代购+overseas purchasing,,0,Advanced,Popular phrases,113003
+象形文字+hieroglyphics,,0,Advanced,Popular phrases,113004
+语言暴力+verbal violence,,0,Advanced,Popular phrases,113005
+钻石王老五+diamond bachelor,,0,Advanced,Popular phrases,113006
+人肉搜索+flesh search,,0,Advanced,Popular phrases,113007
+愤青+young cynic,,0,Advanced,Popular phrases,113008
+卡奴+card slave,,0,Advanced,Popular phrases,113009
+拼车+car-pooling,,0,Advanced,Popular phrases,113010
+精神出轨+infidelity,,0,Advanced,Popular phrases,113011
+黄牛票+scalped ticket,,0,Advanced,Popular phrases,113012
+单身贵族+single noble,,0,Advanced,Popular phrases,113013
+骨感美女+boney beauty,,0,Advanced,Popular phrases,113014
+时尚达人+fashion icon,,0,Advanced,Popular phrases,113015
+剩女+left girls,,0,Advanced,Popular phrases,113016
+母亲+mother,,0,Primary,Relationship,121001
+父亲+father,,0,Primary,Relationship,121002
+兄弟+brother,,0,Primary,Relationship,121003
+姐妹+sister,,0,Primary,Relationship,121004
+祖父母+grandparents,,0,Primary,Relationship,121005
+阿姨+aunt,,0,Primary,Relationship,121006
+朋友+friend,,0,Primary,Relationship,121007
+情人+lover,,0,Primary,Relationship,121008
+伴侣+mate,,0,Primary,Relationship,121009
+团队+team,,0,Primary,Relationship,121010
+亲戚+relative,,0,Primary,Relationship,121011
+合作伙伴+partner,,0,Primary,Relationship,121012
+男朋友+boyfriend,,0,Primary,Relationship,121013
+女朋友+girlfriend,,0,Primary,Relationship,121014
+客人+guest,,0,Primary,Relationship,121015
+室友+roommate,,0,Primary,Relationship,121016
+伴侣+companion,,0,Intermediate,Relationship,122001
+同伴+company,,0,Intermediate,Relationship,122002
+敌人+enemy,,0,Intermediate,Relationship,122003
+同志+comrade,,0,Intermediate,Relationship,122004
+追随者+follower,,0,Intermediate,Relationship,122005
+情妇+mistress,,0,Intermediate,Relationship,122006
+游伴+playmate,,0,Intermediate,Relationship,122007
+队友+teammate,,0,Intermediate,Relationship,122008
+人群+crowd,,0,Intermediate,Relationship,122009
+约会的异性+date,,0,Intermediate,Relationship,122010
+好友+buddy,,0,Intermediate,Relationship,122011
+领导+leader,,0,Intermediate,Relationship,122012
+主人+host,,0,Intermediate,Relationship,122013
+帮+gang,,0,Intermediate,Relationship,122014
+暴徒+mob,,0,Intermediate,Relationship,122015
+家人+family,,0,Intermediate,Relationship,122016
+熟人+acquaintance,,0,Advanced,Relationship,123001
+对手+antagonist,,0,Advanced,Relationship,123002
+同事+colleague,,0,Advanced,Relationship,123003
+辅导员+counselor,,0,Advanced,Relationship,123004
+弟子+disciple,,0,Advanced,Relationship,123005
+未婚妻+fiancee,,0,Advanced,Relationship,123006
+未婚夫+fiance,,0,Advanced,Relationship,123007
+下属+subordinate,,0,Advanced,Relationship,123008
+主席+chairman,,0,Advanced,Relationship,123009
+总统+president,,0,Advanced,Relationship,123010
+物主+owner,,0,Advanced,Relationship,123011
+投资人+investor,,0,Advanced,Relationship,123012
+消费者+consumer,,0,Advanced,Relationship,123013
+顾客+customer,,0,Advanced,Relationship,123014
+大佬+boss,,0,Advanced,Relationship,123015
+导师+mentor,,0,Advanced,Relationship,123016
+航海+sailing,,0,Primary,Travel,131001
+航空+aviation,,0,Primary,Travel,131002
+航天+spaceflight,,0,Primary,Travel,131003
+度假+vacation,,0,Primary,Travel,131004
+观光+sightseeing,,0,Primary,Travel,131006
+旅客+passenger,,0,Primary,Travel,131007
+旅游业+tourism,,0,Primary,Travel,131008
+景色+scene,,0,Primary,Travel,131009
+纪念品+souvenir,,0,Primary,Travel,131010
+金字塔+pyramid,,0,Primary,Travel,131011
+长城+the great wall,,0,Primary,Travel,131012
+背包+knapsack,,0,Primary,Travel,131013
+行李+luggage,,0,Primary,Travel,131014
+地图+map,,0,Primary,Travel,131015
+明信片+postcard,,0,Primary,Travel,131016
+宾馆+hotel,,0,Primary,Travel,131017
+汽车旅馆+motel,,0,Primary,Travel,131018
+博物馆+museum,,0,Primary,Travel,131019
+展览+exhizibition,,0,Primary,Travel,131020
+公路+highway,,0,Primary,Travel,131021
+旅游+trip,,0,Primary,Travel,131022
+行程+journey,,0,Primary,Travel,131023
+汽车+automobile,,0,Primary,Vehicles,141001
+小轿车+car,,0,Primary,Vehicles,141002
+客车+coach,,0,Primary,Vehicles,141003
+公交车+bus,,0,Primary,Vehicles,141004
+自行车+bicycle,,0,Primary,Vehicles,141005
+电车+trolleybus,,0,Primary,Vehicles,141006
+摩托车+motorbike,,0,Primary,Vehicles,141007
+火车+train,,0,Primary,Vehicles,141008
+高铁+CRH train,,0,Primary,Vehicles,141009
+轮船+steamer,,0,Primary,Vehicles,141010
+游轮+loose pulley,,0,Primary,Vehicles,141011
+游艇+yacht,,0,Primary,Vehicles,141012
+飞机+plane,,0,Primary,Vehicles,141013
+客货两用车+notchback,,0,Primary,Vehicles,141014
+牵引车+tractor,,0,Primary,Vehicles,141015
+救护车+ambulance,,0,Primary,Vehicles,141016
+吉普车+jeep,,0,Primary,Vehicles,141017
+露营车+camper,,0,Primary,Vehicles,141018
+地铁+metro,,0,Primary,Vehicles,141019
+卡车+truck,,0,Primary,Vehicles,141020
+皮卡车+pickup truck,,0,Primary,Vehicles,141021
+直升飞机+helicopter,,0,Primary,Vehicles,141022
+抗生素+antibiotics,,0,Primary,Medicine,151001
+阿司匹林+aspirin,,0,Primary,Medicine,151002
+胶囊+capsule,,0,Primary,Medicine,151003
+安全套+condom,,0,Primary,Medicine,151004
+止咳糖浆+cough syrup,,0,Primary,Medicine,151005
+除臭剂+deodorant,,0,Primary,Medicine,151006
+一次性的+disposable,,0,Primary,Medicine,151007
+杀真菌剂+fungicide,,0,Primary,Medicine,151008
+葡萄糖+glucose,,0,Primary,Medicine,151009
+草药+herbal,,0,Primary,Medicine,151010
+卫生+hygiene,,0,primary,Medicine,151011
+布洛芬+ibuprofen,,0,Primary,Medicine,151012
+吸入器+inhaler,,0,Primary,Medicine,151013
+泻药+laxative,,0,Primary,Medicine,151014
+药物治疗+medication,,0,Primary,Medicine,151015
+止痛药+painkiller,,0,Primary,Medicine,151016
+青霉素+penicillin,,0,Intermediate,Medicine,152001
+药剂师+pharmacist,,0,Intermediate,Medicine,152002
+维生素C+redoxon,,0,Intermediate,Medicine,152003
+镇静剂+sedative,,0,Intermediate,Medicine,152004
+卫生巾+sanitray towel,,0,Intermediate,Medicine,152005
+安眠药+sleeping pill,,0,Intermediate,Medicine,152006
+针筒+syring,,0,Intermediate,Medicine,152007
+卫生棉+tampon,,0,Intermediate,Medicine,152008
+维生素+vitamin,,0,Intermediate,Medicine,152009
+润喉片+throat lozenge,,0,Intermediate,Medicine,152010
+药店+pharmacy,,0,Intermediate,Medicine,152011
+过敏+allergy,,0,Intermediate,Medicine,152012
+哮喘+asthma,,0,Intermediate,Medicine,152015
+水泡+blister,,0,Intermediate,Medicine,152016
+阑尾炎+appendictis,,0,Advanced,Medicine,153001
+关节炎+arthritics,,0,Advanced,Medicine,153002
+支气管炎+bronchitis,,0,Advanced,Medicine,153003
+水痘+chickenpox,,0,Advanced,Medicine,153004
+便秘+constipation,,0,Advanced,Medicine,153005
+抽搐+convulsion,,0,Advanced,Medicine,153006
+痉挛+cramp,,0,Advanced,Medicine,153007
+糖尿病+diabetes,,0,Advanced,Medicine,153008
+腹泻+diarrhea,,0,Advanced,Medicine,153009
+痛经+dysmenorrhea,,0,Advanced,Medicine,153010
+湿疹+Eczema,,0,Advanced,Medicine,153011
+肠炎+enteritis,,0,Advanced,Medicine,153012
+胃肠炎+enterogastritis,,0,Advanced,Medicine,153013
+癫痫+epilepsy,,0,Advanced,Medicine,153014
+冻疮+frostbite,,0,Advanced,Medicine,153015
+真菌感染+fungus infection,,0,Advanced,Medicine,153016
+痔疮+hemorrhoid,,0,Advanced,Medicine,153017
+肝炎+hepatitis,,0,Advanced,Medicine,153018
+高血压+hypertension,,0,Advanced,Medicine,153019
+消化不良+indigestion,,0,Advanced,Medicine,153020
+发炎+inflammation,,0,Advanced,Medicine,153021
+喉炎+laryngitis,,0,Advanced,Medicine,153022
+痢疾+malaria,,0,Advanced,Medicine,153023
+麻疹+measles,,0,Advanced,Medicine,153024
+脑膜炎+meningitis,,0,Advanced,Medicine,153025
+月经+menstruation,,0,Advanced,Medicine,153026
+偏头痛+migraine,,0,Advanced,Medicine,153027
+恶心+nausea,,0,Advanced,Medicine,153028
+流鼻血+noseblood,,0,Advanced,Medicine,153029
+瘫痪+paralysis,,0,Advanced,Medicine,153030
+鼻炎+rhinitis,,0,Advanced,Medicine,153031
+胃溃疡+stomachulcer,,0,Advanced,Medicine,153032
+肺结核+tuberculosis,,0,Advanced,Medicine,153033
+尿道炎+urethritis,,0,Advanced,Medicine,153034
+消炎药+anti-inflammatory,,0,Advanced,Medicine,153035
+避孕品+contraceptive,,0,Advanced,Medicine,153036
+小苏打+sodium bicarbonate,,0,Advanced,Medicine,153037
+足癣+Athlete's foot,,0,Advanced,Medicine,153038
+急性病+acute illness,,0,Advanced,Medicine,153039
+体温计+thermometer,,0,Advanced,Medicine,153040
+症状+sympton,,0,Advanced,Medicine,153041
+喷嚏+sneeze,,0,Advanced,Medicine,153042
+处方+prescription,,0,Advanced,Medicine,153043
+消化药+digestive,,0,Advanced,Medicine,153044
+存片+centrum,,0,Advanced,Medicine,153045
+营养+nutrition,,0,Advanced,Medicine,153046
+诊断+diagnosis,,0,Advanced,Medicine,153047
+预防+prevention,,0,Advanced,Medicine,153048
+呼吸+respiration,,0,Advanced,Medicine,153049
+脉搏+pulsation,,0,Advanced,Medicine,153050
+麻醉+anesthesia,,0,Advanced,Medicine,153051
+切除+resectionlie,,0,Advanced,Medicine,153052
+注射+injection,,0,Advanced,Medicine,153053
+遗传+heredity,,0,Advanced,Medicine,153054
+消毒+sterilization,,0,Advanced,Medicine,153055
+软膏+ointment,,0,Advanced,Medicine,153056
+失眠+insomnia,,0,Advanced,Medicine,153057
+蛋白质+albuminuria,,0,Advanced,Medicine,153058
+呼气+expiration,,0,Advanced,Medicine,153059
+吸气+nspiration,,0,Advanced,Medicine,153060
+不适+indisposition,,0,Advanced,Medicine,153061
+疾病+complaint,,0,Advanced,Medicine,153062
+骨折+fracture,,0,Advanced,Medicine,153063
+肿胀+swelling,,0,Advanced,Medicine,153064
+瘀斑+ecchymosis,,0,Advanced,Medicine,153065
+流行病+epidemic,,0,Advanced,Medicine,153066
+潜伏+incubation,,0,Advanced,Medicine,153067
+传染+contagion,,0,Advanced,Medicine,153068
+绷带+bondage,,0,Advanced,Medicine,153069
+胶带+adhesive tape,,0,Advanced,Medicine,153070
+剪刀+scissors,,0,Advanced,Medicine,153071
+药丸+tablet,,0,Advanced,Medicine,153072
+移植+transplant,,0,Advanced,Medicine,153073
+结扎+ligature,,0,Advanced,Medicine,153074
+缝线+stitch,,0,Advanced,Medicine,153075
+环锯术+trepanation,,0,Advanced,Medicine,153076
+气管切开术+tracheotomy,,0,Advanced,Medicine,153077
+瘢痕形成+cicatrization,,0,Advanced,Medicine,153078
+手术刀+bistoury,,0,Advanced,Medicine,153079
+切断术+amputation,,0,Advanced,Medicine,153080
+敷布+compress,,0,Advanced,Medicine,153081
+苹果+apple,,0,Primary,Fruits,311001
 梨+pear,,0,Primary,Fruits,311002
 香蕉+banana,,0,Primary,Fruits,311003
 桃子+peach,,0,Primary,Fruits,311004
@@ -541,3 +792,462 @@
 超现实主义+Surrealism,,0,Advanced,Art,443023
 至上主义+Supermatism,,0,Advanced,Art,443024
 装饰图案+vignette,,0,Advanced,Art,443025
+runing+跑步,,0,Primary,Athletics,511001
+badminton+羽毛球,,0,Primary,Athletics,511002
+rowing+赛艇,,0,Primary,Athletics,511003
+boxing+拳击,,0,Primary,Athletics,511004
+baseball+棒球,,0,Primary,Athletics,511005
+basketball+篮球,,0,Primary,Athletics,511006
+cycling+自行车,,0,Primary,Athletics,511008
+soccer+足球,,0,Primary,Athletics,511010
+swimming+游泳,,0,Primary,Athletics,511016
+softball+垒球,,0,Primary,Athletics,511017
+tennis+网球,,0,Primary,Athletics,511019
+table tennis+乒乓球,,0,Primary,Athletics,511020
+shooting+射击,,0,Primary,Athletics,511021
+sprint+短跑,,0,Primary,Athletics,511026
+throw+投掷,,0,Primary,Athletics,511027
+skating+滑冰,,0,Primary,Athletics,511029
+ice ballet+冰上芭蕾,,0,Primary,Athletics,511031
+horse race+赛马,,0,Primary,Athletics,511035
+automobile race+赛车,,0,Primary,Athletics,511036
+wushu+武术,,0,Primary,Athletics,511037
+long jump+跳远,,0,Primary,Athletics,511040
+hurdles+跨栏,,0,Primary,Athletics,511041
+shotput+推铅球,,0,Primary,Athletics,511042
+diving+跳水,,0,Primary,Athletics,511047
+freestyle skiing+自由式滑雪,,0,Primary,Athletics,511052
+speed skating+速度滑冰,,0,Primary,Athletics,511053
+climbling+攀岩,,0,Primary,Athletics,511054
+golf+高尔夫,,0,Primary,Athletics,511055
+muay thai+泰拳,,0,Primary,Athletics,511058
+fishing+钓鱼,,0,Primary,Athletics,511059
+bowling+保龄球,,0,Primary,Athletics,511061
+chess+国际象棋,,0,Primary,Athletics,511063
+bridge+桥牌,,0,Primary,Athletics,511064
+balloon+热气球,,0,Primary,Athletics,511067
+tug od war+拔河,,0,Primary,Athletics,511068
+esport+电子竞技,,0,Primary,Athletics,511069
+yoga+瑜伽,,0,Primary,Athletics,511070
+ballroon dance+国标舞,,0,Primary,Athletics,511073
+street dance+街舞,,0,Primary,Athletics,511074
+canoeing+皮划艇,,0,Intermediate,Athletics,512007
+gymnastics+体操,,0,Intermediate,Athletics,512011
+handball+手球,,0,Intermediate,Athletics,512013
+judo+柔道,,0,Intermediate,Athletics,512014
+archery+射箭,,0,Intermediate,Athletics,512022
+volleyball+排球,,0,Intermediate,Athletics,512023
+sailboat+帆船,,0,Intermediate,Athletics,512024
+speed skating+速滑,,0,Intermediate,Athletics,512025
+walking race+竞走,,0,Intermediate,Athletics,512028
+ice hockey+冰球,,0,Intermediate,Athletics,512032
+rugby+橄榄球,,0,Intermediate,Athletics,512033
+go+围棋,,0,Intermediate,Athletics,512034
+dragon dance+舞龙,,0,Intermediate,Athletics,512038
+dragon boat+划龙舟,,0,Intermediate,Athletics,512039
+rope skipping+跳绳,,0,Intermediate,Athletics,512043
+kicking shuttlecock+踢毽子,,0,Intermediate,Athletics,512044
+kite flying+放风筝,,0,Intermediate,Athletics,512045
+tug of war+拔河,,0,Intermediate,Athletics,512046
+beach volleyball+沙滩排球,,0,Intermediate,Athletics,512049
+curling+冰壶,,0,Intermediate,Athletics,512050
+darts+飞镖,,0,Intermediate,Athletics,512056
+billiards+台球,,0,Intermediate,Athletics,512057
+roller skating+轮滑,,0,Intermediate,Athletics,512066
+latin dance+拉丁舞,,0,Intermediate,Athletics,512072
+equestrian+马术,,0,Advanced,Athletics,513008
+fencing+击剑,,0,Advanced,Athletics,513009
+weightlifting+举重,,0,Advanced,Athletics,513012
+wrestling+摔跤,,0,Advanced,Athletics,513015
+taekwondo+跆拳道,,0,Advanced,Athletics,513018
+synchronized swimming+花样游泳,,0,Advanced,Athletics,513030
+trampoline+蹦床,,0,Advanced,Athletics,513048
+cross counting skiing+越野滑雪,,0,Advanced,Athletics,513051
+mountaiineering+登山运动,,0,Advanced,Athletics,513060
+ski jumping+跳台滑雪,,0,Advanced,Athletics,513062
+hang gliding+悬挂滑翔,,0,Advanced,Athletics,513065
+pilates+普拉提,,0,Advanced,Athletics,513071
+yoga mat+瑜伽垫,,0,Primary,Equipments,521077
+dumbbell+哑铃,,0,Primary,Equipments,521079
+wall pulley+拉力器,,0,Primary,Equipments,521080
+hiking bag+登山包,,0,Primary,Equipments,521085
+kettle-bell+壶铃,,0,Primary,Equipments,521088
+football+足球,,0,Primary,Equipments,521089
+tennis rocket+网球拍,,0,Primary,Equipments,521091
+bike+自行车,,0,Primary,Equipments,521094
+ski suit+滑雪服,,0,Primary,Equipments,521098
+ski gloves+滑雪手套,,0,Primary,Equipments,521120
+skis+滑雪板,,0,Primary,Equipments,521121
+body rpm+动感单车,,0,Intermediate,Equipments,522076
+barbell+杠铃,,0,Intermediate,Equipments,522078
+rowing machine+划船器,,0,Intermediate,Equipments,522081
+stepper+踏步机,,0,Intermediate,Equipments,522082
+ski goggles+滑雪镜,,0,Intermediate,Equipments,522083
+nice face+骑行镜,,0,Intermediate,Equipments,522084
+telescope+望远镜,,0,Intermediate,Equipments,522086
+wrist developer+握力器,,0,Intermediate,Equipments,522087
+battledore+羽毛球拍,,0,Intermediate,Equipments,522092
+motorcycle+摩托,,0,Intermediate,Equipments,522093
+roller skate+轮滑鞋,,0,Intermediate,Equipments,522095
+skateboard+滑板,,0,Intermediate,Equipments,522096
+surfboard+冲浪板,,0,Intermediate,Equipments,522097
+treadmill+跑步机,,0,Advanced,Equipments,523075
+gymnasium coach+健身教练,,0,Primary,Works,531099
+athlete+运动员,,0,Primary,Works,531100
+dancer+舞者,,0,Primary,Works,531102
+football player+足球运动员,,0,Primary,Works,531103
+track man+田径运动员,,0,Primary,Works,531112
+weight lifter+举重运动员,,0,Primary,Works,531113
+swimmer+游泳运动员,,0,Primary,Works,531114
+shooter+射击运动员,,0,Primary,Works,531117
+racing driver+赛车手,,0,Primary,Works,531119
+commentator+解说员,,0,Intermediate,Works,532101
+hoopman+篮球运动员,,0,Intermediate,Works,532104
+forward+前锋,,0,Intermediate,Works,532105
+full back+后卫,,0,Intermediate,Works,532106
+radio announcer+广播员,,0,Intermediate,Works,532109
+sports agant+体育代理,,0,Intermediate,Works,532110
+gymnast+体操运动员,,0,Intermediate,Works,532115
+goalkeeper+守门员,,0,Advanced,Works,533107
+sportsphoto+体育摄影,,0,Advanced,Works,533108
+sports psychologist+体育心理学家,,0,Advanced,Works,533111
+fencer+击剑运动员,,0,Advanced,Works,533116
+wrestler+摔跤运动员,,0,Advanced,Works,533118
+gym+健身房,,0,Primary,Fields,541122
+ski run+滑雪道,,0,Primary,Fields,541123
+diving board+跳水板,,0,Intermediate,Fields,542124
+ski field+滑雪场,,0,Intermediate,Fields,542126
+bowling alley+保龄球场,,0,Advanced,Fields,543125
+狗+dog,,0,Primary,Animals,211001
+蚂蚁+ant,,0,Primary,Animals,211002
+蝙蝠+bat,,0,Primary,Animals,211003
+熊+bear,,0,Primary,Animals,211004
+蜜蜂+bee,,0,Primary,Animals,211005
+鸟+bird,,0,Primary,Animals,211006
+水牛+buffalo,,0,Primary,Animals,211007
+猫+cat,,0,Primary,Animals,211008
+鸡+chicken,,0,Primary,Animals,211009
+牛+cow,,0,Primary,Animals,211010
+海豚+dolphin,,0,Primary,Animals,211011
+鸭+duck,,0,Primary,Animals,211012
+象+elephant,,0,Primary,Animals,211013
+鱼+fish,,0,Primary,Animals,211014
+狐狸+fox,,0,Primary,Animals,211015
+青蛙+frog,,0,Primary,Animals,211016
+鹅+goose,,0,Primary,Animals,211017
+山羊+goat,,0,Primary,Animals,211018
+马+horse,,0,Primary,Animals,211019
+袋鼠+kangaroo,,0,Primary,Animals,211020
+狮子+lion,,0,Primary,Animals,211021
+猴+monkey,,0,Primary,Animals,211022
+猫头鹰+owl,,0,Primary,Animals,211023
+鲸鱼+whale,,0,Primary,Animals,211024
+巨蟒+python,,0,Intermediate,Animals,212001
+企鹅+penguin,,0,Intermediate,Animals,212002
+鳄鱼+alligator,,0,Intermediate,Animals,212003
+野牛+bison,,0,Intermediate,Animals,212004
+变形虫+amoeba,,0,Intermediate,Animals,212005
+食蚁兽+anteater,,0,Intermediate,Animals,212006
+角鲨+dogfish,,0,Intermediate,Animals,212007
+驯鹿+caribou,,0,Intermediate,Animals,212008
+貂+ermine,,0,Intermediate,Animals,212009
+松鼠+squirrel,,0,Intermediate,Animals,212010
+隼+falcon,,0,Intermediate,Animals,212011
+金翅雀+goldfinch,,0,Intermediate,Animals,212012
+长颈鹿+giraffe,,0,Intermediate,Animals,212013
+瞪羚+gazelle,,0,Intermediate,Animals,212014
+美洲虎+jaguar,,0,Intermediate,Animals,212015
+磷虾+krill,,0,Intermediate,Animals,212016
+龙虾+lobster,,0,Intermediate,Animals,212017
+蜥蜴+lizard,,0,Intermediate,Animals,212018
+豹+leopard,,0,Intermediate,Animals,212019
+章鱼+octopus,,0,Intermediate,Animals,212020
+鸵鸟+ostrich,,0,Intermediate,Animals,212021
+负鼠+opossum,,0,Intermediate,Animals,212022
+乌龟+tortoise,,0,Intermediate,Animals,212023
+獒+mastiff,,0,Advanced,Animals,213001
+乳齿象+mastodon,,0,Advanced,Animals,213002
+信天翁+albatross,,0,Advanced,Animals,213003
+羚羊+antelope,,0,Advanced,Animals,213004
+梭鱼+barracuda,,0,Advanced,Animals,213005
+花栗鼠+chipmunk,,0,Advanced,Animals,213006
+蜻蜓+dragonfly,,0,Advanced,Animals,213007
+仓鼠+hamster,,0,Advanced,Animals,213008
+刺猬+hedgehog,,0,Advanced,Animals,213009
+野猪+javelina,,0,Advanced,Animals,213010
+灯笼鱼+lanternfish,,0,Advanced,Animals,213011
+蚊子+mosquito,,0,Advanced,Animals,213012
+软体动物+mollusk,,0,Advanced,Animals,213013
+穿山甲+pangolin,,0,Advanced,Animals,213014
+海豹+pinnipeds,,0,Advanced,Animals,213015
+响尾蛇+rattlesnake,,0,Advanced,Animals,213016
+鹬+sandpiper,,0,Advanced,Animals,213017
+三叶虫+trilobite,,0,Advanced,Animals,213018
+竹节虫+walkingstick,,0,Advanced,Animals,213019
+狼蛛+tarantula,,0,Advanced,Animals,213020
+孔雀+peacock,,0,Advanced,Animals,213021
+竹子+bamboo,,0,Primary,Plants,221001
+浆果+berry,,0,Primary,Plants,221002
+叶片+blade,,0,Primary,Plants,221003
+开花+blossom,,0,Primary,Plants,221004
+三叶草+clover,,0,Primary,Plants,221005
+谷物+grain,,0,Primary,Plants,221006
+植物群+flora,,0,Primary,Plants,221007
+森林+forest,,0,Primary,Plants,221008
+叶状体+frond,,0,Primary,Plants,221009
+树枝+branch,,0,Primary,Plants,221010
+树皮+bark,,0,Primary,Plants,221011
+草+grass,,0,Primary,Plants,221012
+树胶+gum,,0,Primary,Plants,221013
+香草+herb,,0,Primary,Plants,221014
+丛林+jungle,,0,Primary,Plants,221015
+杜松+juniper,,0,Primary,Plants,221016
+海带+kelp,,0,Primary,Plants,221017
+苔藓+moss,,0,Primary,Plants,221018
+花蜜+nectar,,0,Primary,Plants,221019
+百合花+lily,,0,Primary,Plants,221020
+节点+node,,0,Primary,Plants,221021
+棕榈+palm,,0,Primary,Plants,221022
+掌状的+palmate,,0,Intermediate,Plants,222001
+叶柄+petiole,,0,Intermediate,Plants,222002
+问荆+horsetail,,0,Intermediate,Plants,222003
+苜蓿+alfalfa,,0,Intermediate,Plants,222004
+花药+anther,,0,Intermediate,Plants,222005
+花冠+corolla,,0,Intermediate,Plants,222006
+双子叶植物+dicot,,0,Intermediate,Plants,222007
+肥料+fertilizer,,0,Intermediate,Plants,222008
+树叶+foliage,,0,Intermediate,Plants,222009
+发芽+germinate,,0,Intermediate,Plants,222010
+分生组织+meristem,,0,Intermediate,Plants,222011
+单子叶植物+monocot,,0,Intermediate,Plants,222012
+韧皮部+phloem,,0,Intermediate,Plants,222013
+雌蕊+pistil,,0,Intermediate,Plants,222014
+胚芽+plumule,,0,Intermediate,Plants,222015
+花粉+pollen,,0,Intermediate,Plants,222016
+授粉+pollinate,,0,Intermediate,Plants,222017
+网状+reticulate,,0,Intermediate,Plants,222018
+根茎+rootstock,,0,Intermediate,Plants,222019
+树苗+sapling,,0,Intermediate,Plants,222020
+幼苗+seedling,,0,Intermediate,Plants,222021
+灌木+shrub,,0,Intermediate,Plants,222022
+茎+stalk,,0,Intermediate,Plants,222023
+肉质植物+succulents,,0,Advanced,Plants,223001
+风滚草+tumbleweeds,,0,Advanced,Plants,223002
+花梗+peduncle,,0,Advanced,Plants,223003
+落叶+deciduous,,0,Advanced,Plants,223004
+胚乳+endosperm,,0,Advanced,Plants,223005
+植物标本+herbarium,,0,Advanced,Plants,223006
+光合作用+photosynthesis,,0,Advanced,Plants,223007
+叶绿体+chloroplast,,0,Advanced,Plants,223008
+凤梨科+bromeliad,,0,Advanced,Plants,223009
+常绿树+evergreen,,0,Advanced,Plants,223010
+矛尖形的+lanceolate,,0,Advanced,Plants,223011
+木质部+xylem,,0,Advanced,Plants,223012
+旱生植物+xerophyte,,0,Advanced,Plants,223013
+野葛+kudzu,,0,Advanced,Plants,223014
+裸子植物+gymnosperm,,0,Advanced,Plants,223015
+被子植物+angiosperm,,0,Advanced,Plants,223016
+孢子体+sporophyte,,0,Advanced,Plants,223017
+形成层+cambium,,0,Advanced,Plants,223018
+气孔+stomata,,0,Advanced,Plants,223019
+角质层+cuticle,,0,Advanced,Plants,223020
+配子体+gametophyte,,0,Advanced,Plants,223021
+激素+hormone,,0,Advanced,Plants,223022
+天气+weather,,0,Primary,Weather,231001
+气候+climate,,0,Primary,Weather,231002
+湿度+humidity,,0,Primary,Weather,231003
+温度+temperature,,0,Primary,Weather,231004
+大气+atmosphere,,0,Primary,Weather,231005
+冷锋+cold front,,0,Primary,Weather,231006
+暖锋+warm front,,0,Primary,Weather,231007
+风速+wind speed,,0,Primary,Weather,231008
+气压+air pressure,,0,Primary,Weather,231009
+气团+air mass,,0,Primary,Weather,231010
+风标+wind vane,,0,Primary,Weather,231011
+日规+Sun dial,,0,Primary,Weather,231012
+海风+sea breeze,,0,Primary,Weather,231013
+陆风+land breeze,,0,Primary,Weather,231014
+射流+jet stream,,0,Primary,Weather,231015
+墨西哥湾流+gulf stream,,0,Primary,Weather,231016
+信风+trade winds,,0,Primary,Weather,231017
+等压线+isobar,,0,Primary,Weather,231018
+飓风+hurricane,,0,Primary,Weather,231019
+厄尔尼诺+El Nino
+划词  
+
+
+
+检测到：英语  »  中文
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  翻译 人工翻译 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+El Nino
+El Nino
+
+7/5000 
+
+
+ 
+
+ 
+
+
+
+
+
+
+厄尔尼诺现象+El Nino,,0,Primary,Weather,231020
+谷风+valley breeze,,0,Primary,Weather,231021
+山风+mountain breeze,,0,Primary,Weather,231022
+洪水+flood,,0,Primary,Weather,231023
+多云+cloudy,,0,Primary,Weather,231024
+对流层+troposphere,,0,Intermediate,Weather,232001
+锢囚锋+occluded front,,0,Intermediate,Weather,232002
+暴雪+blizzard,,0,Intermediate,Weather,232003
+雪崩+avalanche,,0,Intermediate,Weather,232004
+冰点以下+below freezing,,0,Intermediate,Weather,232005
+摄氏+centigrade,,0,Intermediate,Weather,232006
+寒流+cold spell,,0,Intermediate,Weather,232007
+小雨+drizzle,,0,Intermediate,Weather,232008
+干旱+drought,,0,Intermediate,Weather,232009
+小雪+flurries,,0,Intermediate,Weather,232010
+
+预报员+forecaster,,0,Intermediate,Weather,232011
+霜寒+frostbite,,0,Intermediate,Weather,232012
+中暑+heat stroke,,0,Intermediate,Weather,232013
+热浪+heatwave,,0,Intermediate,Weather,232014
+潮湿的+humid,,0,Intermediate,Weather,232015
+闪电+lightning,,0,Intermediate,Weather,232016
+阴+overcast,,0,Intermediate,Weather,232017
+水坑+puddle,,0,Intermediate,Weather,232018
+雨滴+raindrop,,0,Intermediate,Weather,232019
+大热天+scorcher,,0,Intermediate,Weather,232020
+雨夹雪+sleet,,0,Intermediate,Weather,232021
+
+暴风雪+snowstorm,,0,Intermediate,Weather,232022
+晒伤+sunburn,,0,Intermediate,Weather,232023
+晒黑+suntan,,0,Intermediate,Weather,232024
+温度计+thermometer,,0,Advanced,Weather,233001
+雷雨+thunderstorm,,0,Advanced,Weather,233002
+龙卷风+tornado,,0,Advanced,Weather,233003
+台风+typhoon,,0,Advanced,Weather,233004
+风寒指数+windchill,,0,Advanced,Weather,233005
+紫外线+ultra-violet,,0,Advanced,Weather,233006
+降水+precipitation,,0,Advanced,Weather,233007
+气象学家+meteorologist,,0,Advanced,Weather,233008
+华氏温度+Fahrenheit,,0,Advanced,Weather,233009
+空调+airconditioning,,0,Advanced,Weather,233010
+蒸发+evaporation,,0,Advanced,Weather,233011
+下击暴流+macroburst,,0,Advanced,Weather,233012
+冷凝+condensation,,0,Advanced,Weather,233013
+阵旋风+gustnado,,0,Advanced,Weather,233014
+永冻层+permafrost,,0,Advanced,Weather,233015
+倾盆大雨+downpour,,0,Advanced,Weather,233016
+水圈+hydrosphere,,0,Advanced,Weather,233017
+污染物+pollutant,,0,Advanced,Weather,233018
+冰晶+ice crystals,,0,Advanced,Weather,233019
+阵雪+snow flurry,,0,Advanced,Weather,233020
+亚热带+subtropical,,0,Advanced,Weather,233021
+飑线+squall line,,0,Advanced,Weather,233022
+赤道无风带+doldrums,,0,Advanced,Weather,233023
+河+river,,0,Primary,Landscape,241001
+环礁+atoll,,0,Primary,Landscape,241002
+湾+bay,,0,Primary,Landscape,241003
+孤峰+butte,,0,Primary,Landscape,241004
+峡谷+canyon,,0,Primary,Landscape,241005
+山谷+valley,,0,Primary,Landscape,241006
+岬+cape,,0,Primary,Landscape,241007
+洞穴+cave,,0,Primary,Landscape,241008
+沟渠+channel,,0,Primary,Landscape,241009
+悬崖+cliff,,0,Primary,Landscape,241010
+大陆+continent,,0,Primary,Landscape,241011
+山凹+cove,,0,Primary,Landscape,241012
+陆地+land,,0,Primary,Landscape,241013
+沙漠+desert,,0,Primary,Landscape,241014
+沙丘+dune,,0,Primary,Landscape,241015
+赤道+equator,,0,Primary,Landscape,241016
+河口+estuary,,0,Primary,Landscape,241017
+喷泉+geyser,,0,Primary,Landscape,241018
+冰川+glacier,,0,Primary,Landscape,241019
+海湾+gulf,,0,Primary,Landscape,241020
+山+hill,,0,Primary,Landscape,241021
+岛+island,,0,Primary,Landscape,241022
+海洋+ocean,,0,Primary,Landscape,241023
+地峡+isthmus,,0,Intermediate,Landscape,242001
+泻湖+lagoon,,0,Intermediate,Landscape,242002
+纬度+latitude,,0,Intermediate,Landscape,242003
+沼泽+marsh,,0,Intermediate,Landscape,242004
+经度+longtitude,,0,Intermediate,Landscape,242005
+山脉+mountain,,0,Intermediate,Landscape,242006
+半岛+peninsula,,0,Intermediate,Landscape,242007
+高原+plateau,,0,Intermediate,Landscape,242008
+草原+prairie,,0,Intermediate,Landscape,242009
+海岸线+coastline,,0,Intermediate,Landscape,242010
+源头+headwaters,,0,Intermediate,Landscape,242011
+海峡+strait,,0,Intermediate,Landscape,242012
+地表径流+surface runoff,,0,Intermediate,Landscape,242013
+支流+tributary,,0,Intermediate,Landscape,242014
+苔原+tundra,,0,Intermediate,Landscape,242015
+火山+volcano,,0,Intermediate,Landscape,242016
+湿地+wetland,,0,Intermediate,Landscape,242017
+荒地+badland,,0,Intermediate,Landscape,242018
+火山口湖+crater lake,,0,Intermediate,Landscape,242019
+火山渣锥+cinder cone,,0,Intermediate,Landscape,242020
+冰山+iceberg,,0,Intermediate,Landscape,242021
+天然拱门+natural arch,,0,Intermediate,Landscape,242022
+熔岩穹丘+lava dome,,0,Advanced,Landscape,243001
+绿洲+oasis,,0,Advanced,Landscape,243002
+海沟+oceanic trench,,0,Advanced,Landscape,243003
+牛轭湖+oxbow lake,,0,Advanced,Landscape,243004
+裂谷+rift valley,,0,Advanced,Landscape,243005
+小溪+rivulet,,0,Advanced,Landscape,243006
+盐沼+salt marsh,,0,Advanced,Landscape,243007
+海滨+seashore,,0,Advanced,Landscape,243008
+台地+tableland,,0,Advanced,Landscape,243009
+绝壁+escarpment,,0,Advanced,Landscape,243010
+冲积扇+alluvial fan,,0,Advanced,Landscape,243011
+群岛+archipelago,,0,Advanced,Landscape,243012
+障壁岛+barrier island,,0,Advanced,Landscape,243013
+箱形峡谷+box canyon,,0,Advanced,Landscape,243014
+山峰+mountain peak,,0,Advanced,Landscape,243015
+皴+crevasse,,0,Advanced,Landscape,243016
+地貌学+geomorphology,,0,Advanced,Landscape,243017
+地形+topography,,0,Advanced,Landscape,243018
+分水岭+watershed,,0,Advanced,Landscape,243019
+风蚀土脊+yardang,,0,Advanced,Landscape,243020
+红树林沼泽+mangrove swamp,,0,Advanced,Landscape,243021
+冰下湖+subglacial lake,,0,Advanced,Landscape,243022
+潮汐盆地+tidal basin,,0,Advanced,Landscape,243023

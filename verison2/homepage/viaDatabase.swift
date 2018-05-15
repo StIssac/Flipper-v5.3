@@ -166,7 +166,8 @@ struct viaDatabase {
                         allLearnedWord.append(lineItem[0])
                         allLearnedWord.append(lineItem[0])
                         allLearnedWord.append(lineItem[0])
-                    }  else if(time.addingTimeInterval(7*3600*24) < now){
+                    }
+                    if(time.addingTimeInterval(7*3600*24) < now){
                         allLearnedWord.append(lineItem[0])
                         allLearnedWord.append(lineItem[0])
                         allLearnedWord.append(lineItem[0])
@@ -175,7 +176,8 @@ struct viaDatabase {
                         allLearnedWord.append(lineItem[0])
                         allLearnedWord.append(lineItem[0])
                         allLearnedWord.append(lineItem[0])
-                    } else if(time.addingTimeInterval(2*3600*24) > now){
+                    }
+                    if(time.addingTimeInterval(2*3600*24) > now){
                         allLearnedWord.append(lineItem[0])
                         allLearnedWord.append(lineItem[0])
                         allLearnedWord.append(lineItem[0])
@@ -261,7 +263,6 @@ struct viaDatabase {
         }
         do{
             let writeToFile = contentOfReviewFile + learnRecord.joined(separator: "\n")
-            Swift.print(writeToFile)
             try writeToFile.write(to: reviewWordFileURL, atomically: true, encoding: String.Encoding.utf8)
         }catch let error as NSError{
             Swift.print(error)

@@ -27,8 +27,11 @@ class GameViewController: UIViewController {
             if count == 0 && self.TimerLabel.text == ("Remaining time:\(count+1)s"){
                 timer.cancel()
                 self.winLabel.alpha = 1.0
-                self.winLabel.text = "YOU LOSE!"
-                viaDatabase.reviewRecord(win: "false", list: self.inputWordList)
+                self.winLabel.text = "YOU LOSE :("
+                self.winLabel.textColor = #colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1)
+                if self.inputWordList.count<15{
+                    viaDatabase.reviewRecord(win: "false", list: self.inputWordList)
+                }
                 self.TimerLabel.text=("Remaining time:0s")
             }
         })
@@ -40,6 +43,7 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Atler the font size according to the length of vocabulary
         for b in cardButtons{
             b.titleLabel?.adjustsFontSizeToFitWidth = true
         }
@@ -78,7 +82,7 @@ class GameViewController: UIViewController {
     }
     
     private func Restart(){
-        var temp = viaDatabase.review(numberOfElement: 6)
+        let temp = viaDatabase.review(numberOfElement: 6)
         if temp.count > 6{
             inputWordList = temp
         }
@@ -94,9 +98,15 @@ class GameViewController: UIViewController {
         game = CardModel(numberOfPairsOfCards: numberOfPairsOfCards)
         ReTry.text = "Remaining Try:\(CardModel.RemainingTry)"
         ScoreLabel.text = "Score:\(CardModel.Score)"
+        reciveWordList = inputWordList
     }
     
-    public var inputWordList = ["😀+😀","😃+😃","😄+😄","🐶+🐶","🐭+🐭","🐷+🐷","🍎+🍎","🍐+🍐","🏈+🏈","🏀+🏀","🛩+🛩","🛸+🛸","⌚️+⌚️","💽+💽","⌨️+⌨️"]
+    public var inputWordList = ["😀+😀","😃+😃","😄+😄","🐶+🐶","🐭+🐭","🐷+🐷","🍎+🍎","🍐+🍐","🏈+🏈","🏀+🏀","🛩+🛩","🛸+🛸","⌚️+⌚️","💽+💽","⌨️+⌨️"]{
+        didSet{
+            reciveWordList = inputWordList
+        }
+    }
+    private var reciveWordList = ["😀+😀","😃+😃","😄+😄","🐶+🐶","🐭+🐭","🐷+🐷","🍎+🍎","🍐+🍐","🏈+🏈","🏀+🏀","🛩+🛩","🛸+🛸","⌚️+⌚️","💽+💽","⌨️+⌨️"]
     
     private(set) var words = [Int:String]()
     
@@ -131,13 +141,17 @@ class GameViewController: UIViewController {
             ScoreLabel.text = "Score:\(CardModel.Score)"
             if CardModel.RemainingTry == 0{
                 winLabel.text = "YOU LOSE :("
-                viaDatabase.reviewRecord(win: "false", list: inputWordList)
+                if inputWordList.count<15{
+                    viaDatabase.reviewRecord(win: "false", list: inputWordList)
+                }
                 winLabel.textColor = #colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1)
                 self.winLabel.alpha = 1.0
             }
             if CardModel.Score == 6{
                 winLabel.text = "YOU WIN :)"
-                viaDatabase.reviewRecord(win: "true", list: inputWordList)
+                if inputWordList.count<15{
+                    viaDatabase.reviewRecord(win: "true", list: inputWordList)
+                }
                 winLabel.textColor = #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)
                 self.winLabel.alpha = 1.0
             }
@@ -148,11 +162,11 @@ class GameViewController: UIViewController {
     
     private func word(for card: Card) -> String {
         
-        if words[card.ID] == nil, inputWordList.count>0{
+        if words[card.ID] == nil, reciveWordList.count>0{
             
-            let randomIndex = Int(arc4random_uniform(UInt32(inputWordList.count)))
-            words[card.ID] = inputWordList[randomIndex]
-            inputWordList.remove(at: randomIndex)
+            let randomIndex = Int(arc4random_uniform(UInt32(reciveWordList.count)))
+            words[card.ID] = reciveWordList[randomIndex]
+            reciveWordList.remove(at: randomIndex)
             
         }
         

@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB00DFC620848DDE00450153 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB00DFC520848DDE00450153 /* GuideViewController.swift */; };
 		AB0D3C87207F87B200BC3FDE /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D3C86207F87B200BC3FDE /* Launch.storyboard */; };
 		AB0D3C88207F87B200BC3FDE /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D3C86207F87B200BC3FDE /* Launch.storyboard */; };
 		AB0D3C89207F87B200BC3FDE /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D3C86207F87B200BC3FDE /* Launch.storyboard */; };
 		AB312A4B208780A5004A21E2 /* effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB312A4A208780A5004A21E2 /* effect.swift */; };
 		AB604E5C209FEE990041F103 /* viaDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB604E5B209FEE990041F103 /* viaDatabase.swift */; };
 		AB6ECFBD2091B9B3000FF37C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ECFBC2091B9B3000FF37C /* AppDelegate.swift */; };
+		AB8F703E20A318B800B1001A /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F703D20A318B700B1001A /* GuideViewController.swift */; };
 		ABD8D5122099E6DE00080849 /* VocCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD8D5112099E6DE00080849 /* VocCardViewController.swift */; };
 		ABF4D77A207A3FFB0099191B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF4D779207A3FFB0099191B /* Images.xcassets */; };
 		ABF8B5B9209F3E5C00697F0E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF8B5B8209F3E5C00697F0E /* LoginViewController.swift */; };
@@ -27,8 +27,8 @@
 		ACABD878206F6B120037FEDD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABD877206F6B120037FEDD /* GameViewController.swift */; };
 		ACABD87A206F71680037FEDD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABD879206F71680037FEDD /* Card.swift */; };
 		ACABD87C206F71A60037FEDD /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABD87B206F71A60037FEDD /* CardModel.swift */; };
+		ACBBF7ED20AB20600089B414 /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBF7EC20AB20600089B414 /* addEvent.swift */; };
 		ACF45EC8206F806E0005820B /* vocCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF45EC7206F806E0005820B /* vocCardModel.swift */; };
-		ACF45ECA206F82240005820B /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF45EC9206F82240005820B /* addEvent.swift */; };
 		ACFF5A6520A139F2005A5A84 /* word.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACFF5A6420A139F2005A5A84 /* word.txt */; };
 /* End PBXBuildFile section */
 
@@ -50,11 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AB00DFC520848DDE00450153 /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
 		AB0D3C86207F87B200BC3FDE /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		AB312A4A208780A5004A21E2 /* effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = effect.swift; sourceTree = "<group>"; };
 		AB604E5B209FEE990041F103 /* viaDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viaDatabase.swift; sourceTree = "<group>"; };
 		AB6ECFBC2091B9B3000FF37C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB8F703D20A318B700B1001A /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
 		ABD8D5112099E6DE00080849 /* VocCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VocCardViewController.swift; sourceTree = "<group>"; };
 		ABF4D779207A3FFB0099191B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ABF8B5B8209F3E5C00697F0E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 		ACABD877206F6B120037FEDD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		ACABD879206F71680037FEDD /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		ACABD87B206F71A60037FEDD /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		ACBBF7EC20AB20600089B414 /* addEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
 		ACF45EC7206F806E0005820B /* vocCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocCardModel.swift; sourceTree = "<group>"; };
-		ACF45EC9206F82240005820B /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
 		ACFF5A6420A139F2005A5A84 /* word.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = word.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -190,8 +190,8 @@
 		ACF45ECC206F841D0005820B /* voccard */ = {
 			isa = PBXGroup;
 			children = (
+				ACBBF7EC20AB20600089B414 /* addEvent.swift */,
 				AC1D45E2206FA83100D25A97 /* chooseCategoryViewController.swift */,
-				ACF45EC9206F82240005820B /* addEvent.swift */,
 				ABD8D5112099E6DE00080849 /* VocCardViewController.swift */,
 				ACF45EC7206F806E0005820B /* vocCardModel.swift */,
 			);
@@ -202,7 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				AB604E5B209FEE990041F103 /* viaDatabase.swift */,
-				AB00DFC520848DDE00450153 /* GuideViewController.swift */,
+				AB8F703D20A318B700B1001A /* GuideViewController.swift */,
 				AB312A4A208780A5004A21E2 /* effect.swift */,
 				AC9A9D8D209A9F97001CC6E6 /* homePageViewController.swift */,
 			);
@@ -355,17 +355,17 @@
 				AC9A9D92209ADE36001CC6E6 /* logIn.swift in Sources */,
 				AB312A4B208780A5004A21E2 /* effect.swift in Sources */,
 				ABF8B5B9209F3E5C00697F0E /* LoginViewController.swift in Sources */,
-				ACF45ECA206F82240005820B /* addEvent.swift in Sources */,
 				ACF45EC8206F806E0005820B /* vocCardModel.swift in Sources */,
 				ACABD87A206F71680037FEDD /* Card.swift in Sources */,
 				AC587DEA2071F71C00119377 /* Model.xcdatamodeld in Sources */,
+				AB8F703E20A318B800B1001A /* GuideViewController.swift in Sources */,
 				AC9A9D8E209A9F97001CC6E6 /* homePageViewController.swift in Sources */,
 				AB604E5C209FEE990041F103 /* viaDatabase.swift in Sources */,
 				ABD8D5122099E6DE00080849 /* VocCardViewController.swift in Sources */,
+				ACBBF7ED20AB20600089B414 /* addEvent.swift in Sources */,
 				AB6ECFBD2091B9B3000FF37C /* AppDelegate.swift in Sources */,
 				AC1D45E3206FA83100D25A97 /* chooseCategoryViewController.swift in Sources */,
 				ACABD87C206F71A60037FEDD /* CardModel.swift in Sources */,
-				AB00DFC620848DDE00450153 /* GuideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,12 +529,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 558NXHNBD7;
+				DEVELOPMENT_TEAM = 98WHZ99N8C;
 				INFOPLIST_FILE = verison2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				PRODUCT_BUNDLE_IDENTIFIER = yxk.Flipper;
+				PRODUCT_BUNDLE_IDENTIFIER = wry.Flipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -548,12 +548,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 558NXHNBD7;
+				DEVELOPMENT_TEAM = 98WHZ99N8C;
 				INFOPLIST_FILE = verison2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				PRODUCT_BUNDLE_IDENTIFIER = yxk.Flipper;
+				PRODUCT_BUNDLE_IDENTIFIER = wry.Flipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;

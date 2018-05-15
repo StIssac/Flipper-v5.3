@@ -79,6 +79,7 @@ class VocCardViewController: UIViewController {
     @IBOutlet weak var SecondLabel: UILabel!
     @IBOutlet weak var thirdLabel: UILabel!
     
+    
     // Gesture recognization
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -92,6 +93,10 @@ class VocCardViewController: UIViewController {
         swipeView.isUserInteractionEnabled = true
         swipeView.addGestureRecognizer(swipeDownRecognizer)
         swipeView.addGestureRecognizer(swipeUpRecognizer)
+        
+        // Alter the font size of label according to the length of vocabulary
+        firstLabel.lineBreakMode = NSLineBreakMode.byWordWrapping
+        thirdLabel.numberOfLines = 1
     }
     
     @objc func nextOne(_ recognizer:UISwipeGestureRecognizer) {
